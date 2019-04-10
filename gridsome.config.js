@@ -1,4 +1,4 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here requires a server restart.
@@ -6,5 +6,18 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [],
+  chainWebpack: config => {
+    const sassLoaderRule = config.module.rule('sass-loader')
+    sassLoaderRule.uses.clear()
+    sassLoaderRule
+      .test(/\.scss$/)
+      .use('sass-loader')
+      .loader('sass-loader')
+      .options({
+        data: `
+          @import "@/scss/_variables.scss";
+        `
+      })
+  }
 }
