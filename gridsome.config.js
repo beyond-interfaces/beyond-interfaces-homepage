@@ -6,7 +6,11 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: [],
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+    }
+  ],
   chainWebpack: config => {
     const sassLoaderRule = config.module.rule('sass-loader')
     sassLoaderRule.uses.clear()
