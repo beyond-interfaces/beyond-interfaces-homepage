@@ -1,38 +1,54 @@
 <template>
-    <div class="layout">
-        <header id="header">
-            <div class="container flex flex-column items-center">
+    <div class="layout flex flex-col items-center content-between h-screen overflow-x-hidden relative">
+        <header id="header" class="w-full">
+            <div class="container flex items-center justify-between pt-8 pb-12">
                 <g-link to="/">
-                    <g-image src="~/assets/beyond-interfaces-logo.png"/>
+                    <Logo/>
                 </g-link>
 
-                <span class="opacity-50 font-light uppercase font-sm ml-2">Enterprise UX &amp; Development</span>
+                <nav class="list-reset flex">
+                    <!-- <g-link class='mr-6' to='/team'>Team</g-link>
+                    <g-link class='mr-6' to='/jobs'>Jobs</g-link> -->
+                    <g-link class='mr-6' to='/technologien'>Technologien</g-link>
+                    <g-link class='mr-6' to='/trainings'>Trainings</g-link>
+                </nav>
             </div>
         </header>
 
-        <main id="main">
+        <main id="main" class="w-full flex-1">
             <slot/>
         </main>
 
-        <footer id="footer" class="mt-16 pt-12">
-            <div class="container flex flex-column">
-                <div id="footer-contact" class="w-3/5 flex flex-column leading-tight">
-                    <div class="footer-contact__address flex-1 opacity-50">
-                        <p>beyond interfaces GmbH & Co KG</p>
-                        <p>Eythstrasse 17</p>
-                        <p>51103 Köln</p>
+        <footer id="footer" class="w-full h-48 mt-32">
+            <FooterBackground class="absolute h-64 w-full"/>
+            <div class="container flex pt-12">
+                <div id="footer-contact" class="w-3/5 flex leading-tight">
+                    <div class="footer-contact__address flex-1">
+                        <LineElement class="fill-current text-bi-pink absolute"/>
+                        <p class="opacity-50 pl-8">
+                            beyond interfaces GmbH & Co KG<br>
+                            Eythstrasse 17<br>
+                            51103 Köln
+                        </p>
                     </div>
-                    <div class="footer-contact__phone flex-1 opacity-50">
-                        <p>T. 0221 - 922 69 20</p>
-                        <p>F. 0221 - 922 69 24</p>
-                        <p>M. info@beyond-interfaces.com</p>
+
+                    <div class="footer-contact__phone flex-1">
+                        <LineElement class="fill-current text-bi-purple absolute"/>
+                        <p class="opacity-50 pl-8">
+                            T. 0221 - 922 69 20<br>
+                            F. 0221 - 922 69 24<br>
+                            M. <a href="mailto:info@beyond-interfaces.com">info@beyond-interfaces.com</a>
+                        </p>
                     </div>
                 </div>
 
                 <div id="footer-nav" class="w-2/5 pt-20 pl-20">
-                    <div class="footer-nav__links flex flex-col">
-                        <g-link to="/">Impressum</g-link>
-                        <g-link to="/">Datenschutzerklärung</g-link>
+                    <div class="footer-nav__links flex">
+                        <LineElement class="fill-current text-bi-blue absolute"/>
+                        <nav class="flex flex-wrap opacity-50 pl-8">
+                            <g-link class="w-full" to="/impressum">Impressum</g-link>
+                            <!-- <g-link class="w-full" to="/datenschutz">Datenschutzerklärung</g-link> -->
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -47,6 +63,20 @@ query {
     }
 }
 </static-query>
+
+<script>
+import Logo from '~/assets/bif_logo.svg';
+import LineElement from '~/assets/line.svg';
+import FooterBackground from '~/assets/footer-background.svg';
+
+export default {
+    components: {
+        FooterBackground,
+        Logo,
+        LineElement
+    }
+}
+</script>
 
 <style>
 @tailwind preflight;
@@ -85,49 +115,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-#header {
-    height: 160px;
-}
-#footer {
-    position: relative;
-}
-#footer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 260px;
-    background: url(../assets/footer-background.svg) no-repeat 50% 50%;
-}
-
-#footer-contact div,
-#footer-nav div {
-    position: relative;
-}
-
-#footer-contact div::before,
-#footer-nav div::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -1.5rem;
-    width: 20px;
-    height: 80px;
-    mask: url(../assets/line.svg) no-repeat;
-    mask-size: cover;
-}
-#footer-nav {}
-
-.footer-contact__address::before {
-    background-color: config('colors.bi-pink');
-}
-.footer-contact__phone::before {
-    background-color: config('colors.bi-purple');
-}
-.footer-nav__links::before {
-    background-color: config('colors.bi-blue');
-}
-
 </style>

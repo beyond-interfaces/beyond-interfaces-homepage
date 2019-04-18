@@ -48,7 +48,7 @@ export default {
                 label: 'Understand',
                 circle: {
                     color: '#00A648',
-                    radius: 100,
+                    radius: 200,
                 },
                 links: [
                     { label: 'User Research', url: ''},
@@ -61,7 +61,7 @@ export default {
                 label: 'Define',
                 circle: {
                     color: '#662A8F',
-                    radius: 120,
+                    radius: 240,
                 },
                 links: [
                     { label: 'Concept', url: ''},
@@ -76,7 +76,7 @@ export default {
                 label: 'Integrate',
                 circle: {
                     color: '#02AAE0',
-                    radius: 120,
+                    radius: 240,
                 },
                 links: [
                     { label: 'Continuous Delivery', url: '' },
@@ -90,7 +90,7 @@ export default {
                 label: 'Develop',
                 circle: {
                     color: '#EB0089',
-                    radius: 160,
+                    radius: 320,
                 },
                 links: [
                     { label: 'Microservices', url: '' },
@@ -106,48 +106,25 @@ export default {
         getViewBox() {
             return `-${window.innerWidth / 2} -512 ${window.innerWidth} 1024`;
         },
-        getRectangleTransform() {
-            return `translate(-${window.innerWidth / 2}, -512) skewX(7)`;
-        },
-        getTransform(section) {
-            let newPosition = {};
-
-            switch(section.id) {
-                case 'understand':
-                    newPosition.x = -400;
-                    newPosition.y = 0;
-                    break;
-                case 'define':
-                    newPosition.x = -200;
-                    newPosition.y = 0;
-                    break;
-                case 'develop':
-                    newPosition.x = 100;
-                    newPosition.y = 0;
-                    break;
-                case 'integrate':
-                    newPosition.x = 400;
-                    newPosition.y = 0;
-                    break;
-                default:
-            }
-
-            const translate = `translate(${newPosition.x}, ${newPosition.y})`;
-            const scale = `scale(${Math.random() + 1})`;
-            return `${translate} ${scale}`;
-        }
     },
     mounted() {
         import('svg.js').then(module => {
-            let SVG = module.default;
+            const SVG = module.default;
 
-            let draw = SVG('graphic')
-                .size(window.innerWidth, 720)
+            const draw = SVG('graphic')
+                .size(window.innerWidth, 600)
                 .viewbox(this.getViewBox());
 
+            const bgRectangle = draw.rect(window.innerWidth * 3, '100%')
+                .move(-(window.innerWidth / 2), -512)
+                .transform({ skewX: 7 })
+                .fill('#666')
+                .attr({
+                    'opacity':'.1',
+                });
 
-            this.sections.forEach(section => {
-                let sectionGroup = draw.group();
+            this.sections.forEach((section, index) => {
+                let sectionGroup = draw.group(`section-${section.id}`);
 
                 // section circle group
                 let sectionCircle = sectionGroup.group();
@@ -161,33 +138,50 @@ export default {
                         'text-anchor':'middle'
                     });
 
-                sectionGroup.polyline('40,40 160,80 180,80')
-                    .fill('none')
-                    .stroke({ color: section.circle.color, width: 1 })
+                const linkGroup = sectionGroup.group();
 
-                sectionGroup.circle(16)
-                    .move(180, 72)
-                    .fill(section.circle.color);
+                section.links.forEach((link, index) => {
+                    let sectionLinks = linkGroup.group();
 
-                sectionGroup.text('Text here')
-                    .move(210, 72)
-                    .fill('#000');
+                    sectionLinks.polyline(`
+                        ${sectionCircle.cx()},${sectionCircle.cy()}
+                        ${sectionCircle.cx() + 220},${sectionCircle.cy() + 50}
+                        ${sectionCircle.cx() + 240},${sectionCircle.cy() + 50}`)
+                        .fill('none')
+                        .stroke({ color: section.circle.color, width: 1 })
 
-                sectionGroup.on('mouseover', function() {
-                    this.animate().transform({ scale: 1.2 })
-                })
+                    sectionLinks.circle(24)
+                        .move(sectionCircle.cx() + 240,sectionCircle.cy() + 42)
+                        .fill(section.circle.color);
 
-                sectionGroup.on('mouseleave', function() {
-                    this.animate().transform({ scale: 1 })
-                })
+                    sectionLinks.text(link.label)
+                        .move(sectionCircle.cx() + 270,sectionCircle.cy() + 38)
+                        .fill('#000')
+                        .attr({ class: 'section-links' });
 
-                sectionGroup.move(-window.innerWidth / 2, 0);
+                    sectionLinks.on('mouseover', function() {
+                        this.animate(500, '>', 250).transform({ scale: 1.2 });
+                    })
+
+                    sectionLinks.on('mouseleave', function() {
+                        this.transform({ scale: 1 });
+                    })
+
+                    if (index > 0) {
+                        let previousLink = linkGroup.get(index-1);
+                        sectionLinks.move(0, previousLink.y() + 30);
+                    }
+                });
+
+                linkGroup.move(0, -50);
+
+                if (index > 0) {
+                    let previousSectionGroup = draw.get(index-1);
+                    sectionGroup.move(previousSectionGroup.x() + section.circle.radius, 0);
+                } else {
+                    sectionGroup.move(-window.innerWidth / 2, 0);
+                }
             });
-
-
-            // var group2 = group1.clone().move(0, 20);
-            // var group3 = group2.clone().move(0, 40);
-            // var group4 = group3.clone().move(0, 60);
         });
     },
 }

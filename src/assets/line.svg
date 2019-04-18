@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 80" preserveAspectRatio="none">
-    <rect width="1" height="80" transform="skewX(3)"/>
+<svg width="20px" height="80px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 80">
+    <rect width="2px" height="80px" transform="skewX(7)"/>
 </svg>

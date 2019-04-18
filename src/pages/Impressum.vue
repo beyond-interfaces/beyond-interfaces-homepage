@@ -1,0 +1,89 @@
+<template>
+  <Layout>
+    <section id="section-impressum" class="container relative">
+      <h1 class="text-bi-pink">Impressum</h1>
+
+      <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+      <p>
+        <strong>Beyond Interfaces GmbH &amp; Co. KG</strong>
+        <br>Eythstr. 17
+        <br>51103 K&ouml;ln
+      </p>
+
+      <p class="mt-4">
+        Handelsregister: HRA 33843
+        <br>Registergericht: Amtgericht K&ouml;ln
+      </p>
+
+      <p class="mt-4">
+        <strong>Vertreten durch die pers&ouml;nlich haftende Gesellschafterin:</strong>
+        <br>Tilman Reiff
+        <br>Martina H&ouml;fflin
+        <br>Christoph H&ouml;ller
+      </p>
+
+      <p class="mt-4">
+        <strong>Gesch&auml;ftsf&uuml;hrer:</strong>
+        <br>Tilman Reiff
+        <br>Christoph H&ouml;ller
+      </p>
+
+      <p class="mt-4">
+        Handelsregister: HRA 33843
+        <br>Registergericht: Amtsgericht K&ouml;ln
+      </p>
+
+      <h2 class="mt-6">Kontakt</h2>
+      <p>
+        Telefon: 0171 834 6617
+        <br>E-Mail: info@beyond-interfaces.com
+      </p>
+
+      <p class="mt-4">
+          Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+        </p>
+
+      <h3 class="mt-6">Haftung f&uuml;r Inhalte</h3>
+      <p>Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.</p>
+      <p>Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
+
+      <h3 class="mt-6">Haftung f&uuml;r Links</h3>
+      <p>Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e &uuml;berpr&uuml;ft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
+      <p>Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+
+      <h3 class="mt-6">Urheberrecht</h3>
+      <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet.</p>
+      <p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+
+      <p>
+        Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a>
+      </p>
+    </section>
+  </Layout>
+</template>
+
+<script>
+import Layout from "~/layouts/Default.vue";
+
+export default {
+  metaInfo: {
+    title: "Impressum"
+  },
+  components: {
+    Layout
+  }
+};
+</script>
+<style scoped>
+#section-impressum::before {
+    content: '';
+    position: absolute;
+    top: 3.2rem;
+    right: -20%;
+    width: 200%;
+    height: 100%;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 600' preserveAspectRatio='none'><rect width='100%' height='100%' x='0' y='0' fill='%23F7F7F7' transform='skewX(-4)'/></svg>") no-repeat;
+    z-index: -1;
+}
+</style>
+
