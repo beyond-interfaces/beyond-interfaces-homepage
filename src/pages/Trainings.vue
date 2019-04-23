@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section id="section-training" class='container relative'>
+    <section id='section-training' class='container relative'>
       <h1 class='text-bi-blue'>Angular Training</h1>
       <article>
         <p class=''>Egal ob Sie noch ganz am Anfang stehen, bereits tiefer gehende Erfahrungen mit Angular gesammelt haben oder vielleicht noch gar nicht genau wissen ob das Framework die richtige Wahl für Sie ist: Wir haben das richtige Training für Sie!</p>
@@ -54,10 +54,3 @@ export default {
     z-index: -1;
 }
 </style>
-
-
-
-
-
-
-

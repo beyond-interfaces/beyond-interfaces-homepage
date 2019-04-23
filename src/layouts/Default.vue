@@ -7,8 +7,8 @@
                 </g-link>
 
                 <nav class="list-reset flex">
-                    <!-- <g-link class='mr-6' to='/team'>Team</g-link>
-                    <g-link class='mr-6' to='/jobs'>Jobs</g-link> -->
+                    <!-- <g-link class='mr-6' to='/team'>Team</g-link> -->
+                    <g-link class='mr-6' to='/jobs'>Jobs</g-link>
                     <g-link class='mr-6' to='/technologien'>Technologien</g-link>
                     <g-link class='mr-6' to='/trainings'>Trainings</g-link>
                 </nav>
@@ -55,14 +55,6 @@
         </footer>
     </div>
 </template>
-
-<static-query>
-query {
-    metaData {
-        siteName
-    }
-}
-</static-query>
 
 <script>
 import Logo from '~/assets/bif_logo.svg';

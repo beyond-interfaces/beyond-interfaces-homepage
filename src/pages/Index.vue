@@ -13,7 +13,8 @@
             <section id='section-info' class='relative'>
                 <div class="container">
                     <p class='w-2/3 px-8 -mt-4'>
-                        Das Web ist mehr als eine Oberfläche. Wir durchdenken alle Ebenen einer erfolgreichen Webanwendung und begleiten Sie von Projektstart bis zur Betrieb der Anwendung mit unserem Know-How und unserer langjährigen Erfahrung und dö-dö-dö. <a>Erkunden Sie die Grafik mit der Maus um mehr zu erfahren.</a>
+                        Das Web ist mehr als eine Oberfläche. Wir durchdenken alle Ebenen einer erfolgreichen Webanwendung und begleiten Sie von Projektstart bis zur Betrieb der Anwendung mit unserem Know-How und unserer langjährigen Erfahrung.<br>
+                        <!-- <a>Erkunden Sie die Grafik mit der Maus um mehr zu erfahren.</a> -->
                     </p>
                 </div>
             </section>
@@ -30,12 +31,12 @@
                         <div class='w-2/5 text-bi-green'>
                             <ul class='ml-8'>
                                 <li>
-                                    <span class="text-bi-green">Senior Frontend Developer</span>
-                                    <!-- <g-link class="text-bi-green" to='/jobs#senior-frontend-developer'>Senior Frontend Developer</g-link> -->
+                                    <!-- <span class="text-bi-green">Senior Frontend Developer</span> -->
+                                    <g-link class="text-bi-green" to='/jobs#senior-frontend-developer'>Senior Frontend Developer</g-link>
                                 </li>
                                 <li>
-                                    <span class="text-bi-green">Junior Frontend Developer</span>
-                                    <!-- <g-link class="text-bi-green" to='/jobs#junior-frontend-developer'>Junior Frontend Developer</g-link> -->
+                                    <!-- <span class="text-bi-green">Junior Frontend Developer</span> -->
+                                    <g-link class="text-bi-green" to='/jobs#junior-frontend-developer'>Junior Frontend Developer</g-link>
                                 </li>
                             </ul>
                         </div>
@@ -51,9 +52,6 @@ import ProcessGraphic from '~/components/ProcessGraphic';
 import WhatWeDo from '~/assets/bif_what-we-do.svg';
 
 export default {
-    metaInfo: {
-        title: 'beyond / interfaces'
-    },
     components: {
         ProcessGraphic,
         WhatWeDo
