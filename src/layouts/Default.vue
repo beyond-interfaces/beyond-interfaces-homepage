@@ -91,12 +91,15 @@ h1 {
 }
 h2 {
     font-size: config('textSizes.4xl');
+    font-weight: 400;
 }
 h3 {
     font-size: config('textSizes.3xl');
+    font-weight: 400;
 }
 h4 {
     font-size: config('textSizes.2xl');
+    font-weight: 400;
 }
 
 a {

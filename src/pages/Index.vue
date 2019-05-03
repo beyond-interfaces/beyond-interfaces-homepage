@@ -13,7 +13,7 @@
             <section id='section-info' class='relative'>
                 <div class="container">
                     <p class='w-2/3 px-8 -mt-4'>
-                        Das Web ist mehr als eine Oberfläche. Wir durchdenken alle Ebenen einer erfolgreichen Webanwendung und begleiten Sie von Projektstart bis zur Betrieb der Anwendung mit unserem Know-How und unserer langjährigen Erfahrung.<br>
+                        Das Web ist mehr als eine Oberfläche. Wir durchdenken alle Ebenen einer erfolgreichen Webanwendung und begleiten Sie vom Projektstart bis zum Betrieb der Anwendung mit unserem Know-How und unserer langjährigen Erfahrung.<br>
                         <!-- <a>Erkunden Sie die Grafik mit der Maus um mehr zu erfahren.</a> -->
                     </p>
                 </div>
