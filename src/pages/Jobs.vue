@@ -14,8 +14,8 @@
         <h4>Wir bieten</h4>
         <ul>
           <li>ein junges interdisziplinäres Team</li>
-          <li>Arbeit mit aktuellen State-of-the Art Technologien (siehe Technlogien)</li>
-          <li>Projekte für grosse, internationale Kunden</li>
+          <li>Arbeit mit State-of-the Art Technologien</li>
+          <li>Projekte mit grossen, internationalen Kunden</li>
           <li>die Möglichkeit dich im Alltag oder auf Schulungen und Konferenzen weiterzuentwickeln</li>
           <li>gemeinsames Kochen & Essen im Loftbüro mit gemütlichem Garten</li>
           <li>Job-Fahrrad</li>
@@ -37,8 +37,8 @@
         <h4>Wir bieten</h4>
         <ul>
           <li>ein junges interdisziplinäres Team</li>
-          <li>Arbeit mit aktuellen State-of-the Art Technologien (siehe Technlogien)</li>
-          <li>Projekte für grosse, internationale Kunden</li>
+          <li>Arbeit mit State-of-the Art Technologien</li>
+          <li>Projekte mit großen, internationalen Kunden</li>
           <li>die Möglichkeit dich im Alltag oder auf Schulungen und Konferenzen weiterzuentwickeln</li>
           <li>gemeinsames Kochen & Essen im Loftbüro mit gemütlichem Garten</li>
           <li>Job-Fahrrad</li>
