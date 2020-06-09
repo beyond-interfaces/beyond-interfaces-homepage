@@ -35,7 +35,7 @@
 
       <h2 class="mt-6">Kontakt</h2>
       <p>
-        Telefon: 0171 834 6617
+        Telefon: 0221 471 51 007
         <br>E-Mail: info@beyond-interfaces.com
       </p>
 

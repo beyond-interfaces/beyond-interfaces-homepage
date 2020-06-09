@@ -35,8 +35,7 @@
                     <div class="footer-contact__phone flex-1">
                         <LineElement class="fill-current text-bi-purple absolute"/>
                         <p class="opacity-50 pl-8">
-                            T. 0221 - 922 69 20<br>
-                            F. 0221 - 922 69 24<br>
+                            T. 0221 - 471 51 007<br>
                             M. <a href="mailto:info@beyond-interfaces.com">info@beyond-interfaces.com</a>
                         </p>
                     </div>
