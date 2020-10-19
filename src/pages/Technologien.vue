@@ -9,7 +9,7 @@
 
       <div class='flex flex-wrap justify-center mt-16'>
           <template v-for='logo in logos'>
-            <div class='logo m-4' :key='logo.name'>
+            <div class='logo m-4 h-16 w-16 md:w-auto md:h-auto' :key='logo.name'>
               <component :is='logo' :key='logo.name'></component>
             </div>
         </template>

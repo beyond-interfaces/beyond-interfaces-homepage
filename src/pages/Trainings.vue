@@ -22,9 +22,9 @@
 
     <section class='container mt-16'>
         <h1 class='text-bi-green'>Ihr Trainer</h1>
-        <div class="flex">
-            <g-image class="rounded-full h-32 w-32" alt="Christoph Höller" src="~/assets/team/christoph_hoeller.jpg"/>
-            <p class="ml-8">Christoph Höller arbeitet seit vielen Jahren als Software-Entwickler und Architekt mit dem Framework Angular. Als erfahrener Trainer & Autor des Fachbuchs 'Angular - Das umfassende Handbuch' hat er bereits viele Unternehmen bei der Einführung von Angular in Ihren Unternehmensstack begleitet.</p>
+        <div class="flex flex-col items-center md:items-start md:flex-row">
+            <g-image class="rounded-full h-32 w-32 mb-4" alt="Christoph Höller" src="~/assets/team/christoph_hoeller.jpg"/>
+            <p class="md:ml-8">Christoph Höller arbeitet seit vielen Jahren als Software-Entwickler und Architekt mit dem Framework Angular. Als erfahrener Trainer & Autor des Fachbuchs 'Angular - Das umfassende Handbuch' hat er bereits viele Unternehmen bei der Einführung von Angular in Ihren Unternehmensstack begleitet.</p>
         </div>
     </section>
   </Layout>
