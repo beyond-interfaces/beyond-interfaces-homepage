@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 495 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>illu-softwaremodernization</title>
+    <g id="illu-softwaremodernization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illu">
+            <g id="Group" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="10.3650386 36.1954891 72.1825545 0.370179949 134.00007 36.1954891 134.00007 108.152386 72.1825545 143.390525 10.3650386 108.152386"></polygon>
+                </g>
+            </g>
+            <g id="Crystal-symmetric-outline-only" transform="translate(91.500000, 0.000000)" stroke="#96CFC0">
+                <polygon id="Path" points="10.3650386 36.1954891 72.1825545 0.370179949 134.00007 36.1954891 134.00007 108.152386 72.1825545 143.390525 10.3650386 108.152386"></polygon>
+            </g>
+            <g id="Group" transform="translate(416.500000, 0.500000)" fill="#94CFC0" fill-rule="nonzero">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="5.18251928 18.0977445 36.0912772 0.185089974 67.0000352 18.0977445 67.0000352 54.076193 36.0912772 71.6952623 5.18251928 54.076193"></polygon>
+                </g>
+            </g>
+            <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="372.25" cy="36.5" r="29.5"></circle>
+            <g id="Group" transform="translate(420.000000, 79.000000)" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="4.67866324 16.3382416 32.5824031 0.167095116 60.4861429 16.3382416 60.4861429 48.8187853 32.5824031 64.7248896 4.67866324 48.8187853"></polygon>
+                </g>
+            </g>
+            <g id="Group" transform="translate(8.750000, 69.250000)" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="2.0874036 7.28936933 14.5367644 0.0745501285 26.9861253 7.28936933 26.9861253 21.7806888 14.5367644 28.8772584 2.0874036 21.7806888"></polygon>
+                </g>
+            </g>
+            <g id="Group" transform="translate(82.500000, 20.250000)" fill="#94CFC0" fill-rule="nonzero">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="2.0874036 7.28936933 14.5367644 0.0745501285 26.9861253 7.28936933 26.9861253 21.7806888 14.5367644 28.8772584 2.0874036 21.7806888"></polygon>
+                </g>
+            </g>
+            <g id="Group" transform="translate(223.000000, 82.500000)" fill="#94CFC0" fill-rule="nonzero">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="2.0874036 7.28936933 14.5367644 0.0745501285 26.9861253 7.28936933 26.9861253 21.7806888 14.5367644 28.8772584 2.0874036 21.7806888"></polygon>
+                </g>
+            </g>
+            <g id="Group" transform="translate(350.250000, 83.500000)" fill="#94CFC0" fill-rule="nonzero">
+                <g transform="translate(0.200000, 19.650000)" id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="2.0874036 7.28936933 14.5367644 0.0745501285 26.9861253 7.28936933 26.9861253 21.7806888 14.5367644 28.8772584 2.0874036 21.7806888"></polygon>
+                </g>
+                <circle id="Oval" cx="41.35" cy="12.5" r="12.15"></circle>
+            </g>
+            <g id="Group" transform="translate(56.000000, 59.000000)" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="5.25449871 18.3491021 36.592545 0.187660668 67.9305913 18.3491021 67.9305913 54.8272512 36.592545 72.6910299 5.25449871 54.8272512"></polygon>
+                </g>
+            </g>
+            <circle id="Oval" fill="#94CFC0" fill-rule="nonzero" cx="48" cy="44" r="15"></circle>
+            <g id="Group-2" transform="translate(167.500000, 72.500000)" fill="#94CFC0" fill-rule="nonzero">
+                <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="27.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="53.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="79.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="105.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="131.5" cy="2.5" r="2.5"></circle>
+                <circle id="Oval" cx="157.5" cy="2.5" r="2.5"></circle>
+            </g>
+            <g id="Group" transform="translate(97.000000, 44.000000)" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+                <g id="Crystal-symmetric-outline-only">
+                    <polygon id="Path" points="6.33419023 22.1194655 44.1115611 0.22622108 81.8889319 22.1194655 81.8889319 66.0931247 44.1115611 87.6275428 6.33419023 66.0931247"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

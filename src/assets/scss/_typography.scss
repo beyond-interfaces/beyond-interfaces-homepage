@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Aeonik;
+  src: url('../assets/fonts/Aeonik-Light.woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: Aeonik;
+  src: url('../assets/fonts/Aeonik-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Aeonik;
+  src: url('../assets/fonts/Aeonik-Bold.woff2');
+  font-weight: 700;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Aeonik, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  overflow-wrap: break-word;
+}
+
+::selection {
+  background: var(--color-primary);
+}
+::-moz-selection {
+  background: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38px;
+
+  @include breakpoint('m') {
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 30px;
+
+  @include breakpoint('s') {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+
+  @include breakpoint('s') {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+p {
+}

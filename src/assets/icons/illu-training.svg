@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 495 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>illu-training</title>
+    <g id="illu-training" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(8.750000, 15.000000)" stroke="#96CFC0" stroke-linejoin="bevel" stroke-width="3">
+            <circle id="Oval" cx="465" cy="105" r="15"></circle>
+            <circle id="Oval" cx="420" cy="105" r="15"></circle>
+            <circle id="Oval" cx="375" cy="105" r="15"></circle>
+            <circle id="Oval" cx="330" cy="105" r="15"></circle>
+            <circle id="Oval" cx="285" cy="105" r="15"></circle>
+            <circle id="Oval" cx="240" cy="105" r="15"></circle>
+            <circle id="Oval" cx="195" cy="105" r="15"></circle>
+            <circle id="Oval" cx="150" cy="105" r="15"></circle>
+            <circle id="Oval" cx="105" cy="105" r="15"></circle>
+            <circle id="Oval" cx="60" cy="105" r="15"></circle>
+            <circle id="Oval" cx="15" cy="105" r="15"></circle>
+            <circle id="Oval" cx="465" cy="60" r="15"></circle>
+            <circle id="Oval" cx="420" cy="60" r="15"></circle>
+            <circle id="Oval" cx="375" cy="60" r="15"></circle>
+            <circle id="Oval" cx="330" cy="60" r="15"></circle>
+            <circle id="Oval" cx="285" cy="60" r="15"></circle>
+            <circle id="Oval" cx="240" cy="60" r="15"></circle>
+            <circle id="Oval" cx="195" cy="60" r="15"></circle>
+            <circle id="Oval" cx="150" cy="60" r="15"></circle>
+            <circle id="Oval" cx="105" cy="60" r="15"></circle>
+            <circle id="Oval" cx="60" cy="60" r="15"></circle>
+            <circle id="Oval" cx="15" cy="60" r="15"></circle>
+            <circle id="Oval" cx="465" cy="15" r="15"></circle>
+            <circle id="Oval" cx="420" cy="15" r="15"></circle>
+            <circle id="Oval" cx="375" cy="15" r="15"></circle>
+            <circle id="Oval" cx="330" cy="15" r="15"></circle>
+            <circle id="Oval" cx="285" cy="15" r="15"></circle>
+            <circle id="Oval" cx="240" cy="15" r="15"></circle>
+            <circle id="Oval" cx="195" cy="15" r="15"></circle>
+            <circle id="Oval" cx="150" cy="15" r="15"></circle>
+            <circle id="Oval" cx="105" cy="15" r="15"></circle>
+            <circle id="Oval" cx="60" cy="15" r="15"></circle>
+            <circle id="Oval" cx="15" cy="15" r="15"></circle>
+        </g>
+        <g id="Group" transform="translate(315.500000, 95.750000)" fill="#94CFC0" fill-rule="nonzero">
+            <g id="Crystal-symmetric-outline-only">
+                <polygon id="Path" points="3.49100257 12.1908418 24.3114854 0.124678663 45.1319682 12.1908418 45.1319682 36.4263244 24.3114854 48.2947253 3.49100257 36.4263244"></polygon>
+            </g>
+        </g>
+        <g id="Group" transform="translate(89.500000, 50.750000)" fill="#94CFC0" fill-rule="nonzero">
+            <g id="Crystal-symmetric-outline-only">
+                <polygon id="Path" points="3.49100257 12.1908418 24.3114854 0.124678663 45.1319682 12.1908418 45.1319682 36.4263244 24.3114854 48.2947253 3.49100257 36.4263244"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

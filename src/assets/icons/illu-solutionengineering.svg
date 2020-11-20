@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 495 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>illu-solutionengineering</title>
+    <g id="illu-solutionengineering" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="445" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" cx="445" cy="108.5" r="13"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="366" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="287" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" cx="208" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="129" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="50" cy="108.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="445" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" cx="366" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="287" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="208" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" stroke="#96CFC0" cx="129" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" fill="#94CFC0" fill-rule="nonzero" cx="129" cy="41.5" r="3.835"></circle>
+        <circle id="Oval" fill="#94CFC0" fill-rule="nonzero" cx="208.5" cy="41.5" r="3.835"></circle>
+        <line x1="129.5" y1="41.5" x2="208.5" y2="41.5" id="Line-4" stroke="#96CFC0"></line>
+        <circle id="Oval" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel" cx="50" cy="41.5" r="29.5"></circle>
+        <circle id="Oval" fill="#94CFC0" fill-rule="nonzero" cx="50" cy="41.5" r="8"></circle>
+        <circle id="Oval" fill="#94CFC0" fill-rule="nonzero" cx="395.5" cy="41.5" r="8"></circle>
+        <line x1="316.5" y1="41.5" x2="336.5" y2="41.5" id="Line-5" stroke="#96CFC0" stroke-width="3" stroke-linejoin="bevel"></line>
+        <line x1="50.5" y1="41.5" x2="129.5" y2="108.5" id="Line-3" stroke="#96CFC0"></line>
+        <line x1="129.5" y1="108.5" x2="208.5" y2="108.5" id="Line" stroke="#96CFC0"></line>
+        <line x1="208.5" y1="108.5" x2="264.5" y2="61.5" id="Line-2" stroke="#96CFC0"></line>
+        <line x1="366.5" y1="41.5" x2="366.5" y2="108.5" id="Line-6" stroke="#96CFC0"></line>
+        <circle id="Oval" fill="#D4ECE6" fill-rule="nonzero" cx="208" cy="108.5" r="13.1275"></circle>
+        <circle id="Oval" stroke="#96CFC0" fill="#FFFFFF" cx="129" cy="108.5" r="11.8"></circle>
+    </g>
+</svg>
