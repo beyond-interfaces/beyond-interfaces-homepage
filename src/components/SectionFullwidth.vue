@@ -8,7 +8,6 @@
         <h2>
           <slot name="title"></slot>
         </h2>
-
         <slot name="description"></slot>
       </article>
     </div>
@@ -16,16 +15,12 @@
 </template>
 
 <script>
-import CrystalSymmetric from '~/assets/icons/crystal-symmetric.svg';
-
 export default {
-  components: { CrystalSymmetric },
   props: ['bgColor', 'name', 'image', 'inverted', 'shifted'],
   data() {
     return {
       styleObject: {
         'background-color': this.bgColor ? this.bgColor : 'var(--color-white)'
-        // 'background-image': 'url(' + CrystalSymmetric + ')'
       }
     };
   }
@@ -33,7 +28,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$section-min-height: 460px;
 $section-paragraph-width: 65%;
 
 section {
@@ -62,9 +56,6 @@ section {
       > article {
         width: $section-paragraph-width;
         margin-left: var(--spacing-m);
-      }
-
-      .logo {
       }
     }
   }

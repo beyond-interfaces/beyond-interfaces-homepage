@@ -1,6 +1,6 @@
 <template>
   <Layout>
-     <section class="container u-padding-bottom-none">
+     <section class="container">
       <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Backend (m/w/d)'" :href="'/jobs/senior-backend-developer'" :color="'var(--color-primary)'"/>
       <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Frontend (m/w/d)'" :href="'/jobs/senior-frontend-developer'" :color="'var(--color-grey)'"/>
     </section>

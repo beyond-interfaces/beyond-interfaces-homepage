@@ -9,38 +9,38 @@
         <br />Eythstr. 17 <br />51103 K&ouml;ln
       </p>
 
-      <p class="mt-4">
+      <p>
         Handelsregister: HRA 33843
         <br />Registergericht: Amtgericht K&ouml;ln
       </p>
 
-      <p class="mt-4">
+      <p>
         <strong>Vertreten durch die pers&ouml;nlich haftende Gesellschafterin:</strong>
         <br />Tilman Reiff <br />Martina H&ouml;fflin <br />Christoph H&ouml;ller
       </p>
 
-      <p class="mt-4">
+      <p>
         <strong>Gesch&auml;ftsf&uuml;hrer:</strong>
         <br />Tilman Reiff <br />Christoph H&ouml;ller
       </p>
 
-      <p class="mt-4">
+      <p>
         Handelsregister: HRA 33843
         <br />Registergericht: Amtsgericht K&ouml;ln
       </p>
 
-      <h2 class="mt-6">Kontakt</h2>
+      <h2>Kontakt</h2>
       <p>
         Telefon: 0221 471 51 007
         <br />E-Mail: info@beyond-interfaces.com
       </p>
 
-      <p class="mt-4">
+      <p>
         Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
         teilzunehmen.
       </p>
 
-      <h3 class="mt-6">Haftung f&uuml;r Inhalte</h3>
+      <h3>Haftung f&uuml;r Inhalte</h3>
       <p>
         Als Diensteanbieter sind wir gem&auml;&szlig; &sect; 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach
         den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch
@@ -54,7 +54,7 @@
         diese Inhalte umgehend entfernen.
       </p>
 
-      <h3 class="mt-6">Haftung f&uuml;r Links</h3>
+      <h3>Haftung f&uuml;r Links</h3>
       <p>
         Unser Angebot enth&auml;lt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
         Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die
@@ -68,7 +68,7 @@
         entfernen.
       </p>
 
-      <h3 class="mt-6">Urheberrecht</h3>
+      <h3>Urheberrecht</h3>
       <p>
         Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
         Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb
@@ -84,8 +84,8 @@
 
       <p>
         Quelle:
-        <a href="https://www.e-recht24.de/impressum-generator.html"
-          >https://www.e-recht24.de/impressum-generator.html</a
+        <g-link to="https://www.e-recht24.de/impressum-generator.html"
+          >https://www.e-recht24.de/impressum-generator.html</g-link
         >
       </p>
     </section>
@@ -104,4 +104,3 @@ export default {
   }
 };
 </script>
-<style scoped></style>

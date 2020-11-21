@@ -39,7 +39,8 @@ export default {
 
 <style lang="scss">
 $logo-width: 160px;
-$header-height: 150px;
+$header-height: 110px;
+$header-height-m: 150px;
 $navigation-width: 320px;
 
 #header {
@@ -54,6 +55,7 @@ $navigation-width: 320px;
   padding: 0 var(--spacing-m);
 
   @include breakpoint('m') {
+    height: $header-height-m;
     padding: 0;
   }
 

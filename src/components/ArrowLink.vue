@@ -24,10 +24,17 @@ export default {
 <style lang="scss">
 .arrow-link {
   display: flex;
-  align-items: center;
+  align-items: top;
   font-weight: 700;
-  min-height: 60px;
-
+  // min-height: 60px;
+  margin-bottom: var(--spacing-m);
+  span {
+    margin-top: 1px;
+    line-height: 24px;
+    @include breakpoint('m') {
+      margin-top: 3px;
+    }
+  }
   svg {
     width: 30px;
     height: 26px;

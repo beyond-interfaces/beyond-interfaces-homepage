@@ -1,6 +1,6 @@
 <template>
   <Layout>
-     <section class="container u-padding-bottom-none">
+     <section class="container">
       <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Backend (m/w/d)'" :href="'/jobs/senior-backend-developer'" :color="'var(--color-grey)'"/>
       <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Frontend (m/w/d)'" :href="'/senior-frontend-developer'" :color="'var(--color-primary)'"/>
     </section>
@@ -16,15 +16,15 @@
       <template v-slot:description>
         <p>
           <ul>
-            <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
-            <li>lanjährige Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular und TypeScript</li>
-            <li>fundiertes Know-How im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen CSS-Architekturen (BEM / IT-CSS)</li>
-            <li>Kenntnisse im Bereich Testautomatisierung für Web-Applikationen (Cypress / Wiremock / Contract-Testing)</li>
-            <li>erste Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere AWS)</li>
-            <li>ein grundlegendes Verständnis für moderne Software-Architekturen und gutes Schnittstellen-Design</li>
-            <li>einen hohen Qualitätanspruch an deine eigene Arbeit</li>
-            <li>die Bereitschaft dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
-            <li>keine Angst davor alte Gewohnheiten über Bord zu werfen und Lösungen zu hinterfragen</li>
+            <li>ein großartiges Team aus echten Experten im Bereich Software-Entwicklung und User-Experience-Design</li>
+            <li>wirklich spannende Projekte bei internationalen Kunden (mehr dazu im persönlichen Gespräch)</li>
+            <li>einen Remote-First Arbeitsplatz bei dem du selbst entscheidest wo und wie du am effizientesten arbeitest.</li>
+            <li>ein attraktives und leistungsbezogenes Gehalt</li>
+            <li>die Möglichkeit den Aufbau unseres Unternehmens mitzugestalten und Verantwortung zu übernehmen</li>
+            <li>ein frei verfügbares Weiterbildungs-Budget in Höhe von 2000 € / Jahr</li>
+            <li>regelmäßige Teamevents und gemeinsame Aktivitäten (z.B. Wake-Boarding / Mountainbiken / Klettern)</li>
+            <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office!)</li>
+            <li>ein JobTicket für den ÖPNV sowie die Möglichkeit dir ein Job-Bike auszusuchen</li>
           </ul>
         </p>
       </template>
@@ -38,12 +38,12 @@
         <p>
           <ul>
             <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
-            <li>langjährige Erfahrung in der Entwicklung von komplexen Business-Anwendungen auf Basis von Java oder Kotlin</li>
-            <li>tiefgehendes Know-How in mindestens einem der folgenden Frameworks: Spring / Spring Boot / Vert.x /</li>
-            <li>fundierte Kenntnisse im Aufbau moderner Software-Architekturen (Self-Contained Systems, CQRS, Domain driven Design, ...)</li>
-            <li>einen sicheren Umgang in allen Bereichen des Software-Entwicklungs&shy;prozesses (Requirements-Engineering / SCRUM / XP )</li>
-            <li>Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere Kubernetes & AWS)</li>
-            <li>einen hohen Qualitätsanspruch an deine eigene Arbeit</li>
+            <li>lanjährige Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular und TypeScript</li>
+            <li>fundiertes Know-How im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen CSS-Architekturen (BEM / IT-CSS)</li>
+            <li>Kenntnisse im Bereich Testautomatisierung für Web-Applikationen (Cypress / Wiremock / Contract-Testing)</li>
+            <li>erste Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere AWS)</li>
+            <li>ein grundlegendes Verständnis für moderne Software-Architekturen und gutes Schnittstellen-Design</li>
+            <li>einen hohen Qualitätanspruch an deine eigene Arbeit</li>
             <li>die Bereitschaft dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
             <li>keine Angst davor alte Gewohnheiten über Bord zu werfen und Lösungen zu hinterfragen</li>
           </ul>

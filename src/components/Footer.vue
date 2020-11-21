@@ -25,7 +25,7 @@
               <g-link to="https://www.xing.com/companies/beyondinterfacesgmbh%26co.kg"><XingIcon /></g-link>
             </li>
             <li>
-              <g-link to="https://medium.com/@beyondinterfaces"><MediumIcon /></g-link>
+              <g-link to="https://medium.com/@beyondinterfaces/about"><MediumIcon /></g-link>
             </li>
             <li>
               <g-link to="https://www.instagram.com/beyondinterfaces/"><InstagramIcon /></g-link>
@@ -73,7 +73,6 @@ section {
 
   & > * {
     z-index: 1;
-    margin: var(--spacing-xs) 0;
   }
 
   @include breakpoint('s', 'max') {
@@ -124,6 +123,7 @@ section {
 
   .logo {
     width: $logo-width;
+
     @include breakpoint('m') {
       margin-left: -$logo-width / 2;
     }
@@ -159,6 +159,7 @@ section {
   }
 
   svg {
+    fill: var(--color-grey);
     width: 24px;
     height: 24px;
   }

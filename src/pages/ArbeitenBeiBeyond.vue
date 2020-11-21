@@ -65,10 +65,10 @@
           zählen dazu außerdem die vollständige Übernahme aller für das Home-Office anfallenden Kosten - sei es für einen neuen Bürostuhl,
           den Gaming Monitor oder auch für eine Palette deines Lieblings-Kaffees!
         </p>
-        <p>
+       <!-- <p>
           (Wenn du mehr über unseren Ansatz und unser Remote-Strategie erfahren möchtest, möchten wir dich an dieser Stelle auf unseren
           Medium-Artikel zu dem Thema verweisen)
-        </p>
+        </p> -->
       </template>
     </SectionFullwidth>
 

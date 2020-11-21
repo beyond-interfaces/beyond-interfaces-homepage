@@ -54,8 +54,10 @@
         Angular Cologne Meetup
       </template>
       <template v-slot:description>
-        Angular Cologne ist der Treffpunkt für die Kölner Angular-Szene. Willkommen ist jeder der sich für Angular
-        interessiert und Teil unserer Community werden möchte.
+        <p>
+          Angular Cologne ist der Treffpunkt für die Kölner Angular-Szene. Willkommen ist jeder der sich für Angular
+          interessiert und Teil unserer Community werden möchte.
+        </p>
         <ArrowLink :text="'angular.cologne'" :href="'https://www.meetup.com/de-DE/angular-cologne/'" />
       </template>
     </SectionFullwidth>
@@ -82,7 +84,6 @@ import Service from '~/components/Service.vue';
 import SectionFullwidth from '~/components/SectionFullwidth.vue';
 import ArrowLink from '~/components/ArrowLink.vue';
 import AngularCologneLogo from '~/assets/icons/ng-cologne.svg?inline';
-// import ArrowIcon from '~/assets/icons/arrow.svg?inline';
 
 export default {
   metaInfo: {
@@ -95,7 +96,6 @@ export default {
     ]
   },
   components: {
-    // ArrowIcon,
     AngularCologneLogo,
     CrystalIcon,
     Service,
