@@ -1,12 +1,12 @@
 [
     {
         "title": "Solution Engineering",
-        "description": "Die Art und Weise wie Software entwickelt, veröffentlicht und betrieben wird unterliegt einem steten Wandel. Wir denken lösungsoffen, ergebnisorientiert und technologieunabhängig – aber nicht in Hypes.",
+        "description": "Solution Engineering bedeutet für uns, zunächst einmal Ihre Use-Cases und vorhanden Rahmenbedingungen zu verstehen. Unsere Architekturen erstellen wir ohne Technologie-Scheuklappen, mit dem Anspruch Ihnen auf dem für Sie besten Weg zum Ziel zu verhelfen.",
         "image": "SolutionEngineering"
     },
     {
         "title": "Software Modernization",
-        "description": "Jahrelang gewachsene IT-Infrastrukturen und veraltete Softwaresysteme sind oft Hemmschuh für Flexibilität und Innovation. Durch unsere Erfahrung aus zahlreichen Modernisierungsprojekten wissen wir, wie man bestehende Systemlandschaften nachhaltig umbaut.",
+        "description": "Jahrelang gewachsene IT-Infrastrukturen und veraltete Softwaresysteme sind oft Hemmschuh für Flexibilität und Innovation. Durch unsere Erfahrung aus zahlreichen Modernisierungsprojekten wissen wir, wie man bestehende Systemlandschaften nachhaltig und inkrementell umbaut.",
         "image": "SoftwareModernization"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "title": "Training / Consulting",
-        "description": "Der Wandel muss nicht zuletzt auch in den Köpfen derjenigen stattfinden, die ihn treiben sollen. Unsere auf Vorwissen und Projekt abgestimmten Schulungsangebote schaffen Basiswissen, unterstützen beim Kick-off oder begleiten Teams über das gesamte Projekt.",
+        "description": "Wandel muss nicht zuletzt auch in den Köpfen derjenigen stattfinden, die ihn treiben sollen. Unsere auf Vorwissen und Projekt abgestimmten Schulungsangebote schaffen Basiswissen, unterstützen beim Kick-off oder begleiten Teams über das gesamte Projekt.",
         "image": "Training"
     }
 ]

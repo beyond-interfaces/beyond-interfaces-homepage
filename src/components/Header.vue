@@ -3,17 +3,12 @@
     <g-link to="/" class="logo-link">
       <BrandLogo class="logo" />
     </g-link>
-    <input type="checkbox" :checked="navOpen" @click="navOpen = !navOpen" id="menu" />
+    <input type="checkbox" :checked="navOpen" @click="toggleMenu()" id="menu" />
     <label for="menu" class="nav-trigger">
       <span class="line"></span>
       <span class="line"></span>
     </label>
     <nav class="nav-container" id="navigation">
-      <header>
-        <h2>
-          Navigation
-        </h2>
-      </header>
       <ul v-show="navOpen" class="nav-list">
         <li><g-link class="nav__link" to="/">Home</g-link></li>
         <li><g-link class="nav__link" to="/arbeiten-bei-beyond/">Arbeiten bei beyond</g-link></li>
@@ -44,9 +39,11 @@ export default {
 
 <style lang="scss">
 $logo-width: 160px;
-$header-height: 80px;
+$header-height: 150px;
+$navigation-width: 320px;
 
 #header {
+  position: relative;
   max-width: map-get($breakpoints, 'm');
   margin: 0 auto;
   display: flex;
@@ -62,9 +59,9 @@ $header-height: 80px;
 
   .logo-link {
     margin-left: calc(-1 * var(--spacing-s));
-    margin-top: var(--spacing-m);
+    // margin-top: var(--spacing-m);
     @include breakpoint('m') {
-      margin-top: var(--spacing-m);
+      // margin-top: var(--spacing-m);
       margin-left: -$logo-width / 2;
     }
   }
@@ -80,9 +77,9 @@ $header-height: 80px;
 
   & li a {
     text-decoration: none;
-    color: grey;
+    // color: grey;
     &:hover {
-      color: var(--color-primary);
+      // color: darkgray;
     }
   }
 }
@@ -106,8 +103,9 @@ $header-height: 80px;
   top: 0;
   right: 0;
   height: 100%;
-  width: 90%;
-  max-width: 460px;
+  width: calc(100vw - var(--spacing-m) * 2);
+  max-width: $navigation-width;
+  padding: var(--spacing-m);
   padding: var(--spacing-m);
   background: var(--color-primary);
   overflow: auto;
@@ -115,6 +113,7 @@ $header-height: 80px;
   transform: translateX(100%);
   transition: transform 0.5s cubic-bezier(0.07, 0.23, 0.34, 1);
 }
+
 .nav-open .nav-container {
   transform: translateX(0);
 }
@@ -191,11 +190,11 @@ input#menu {
   top: 16px;
 }
 
-#menu:checked + .menu .line:nth-child(1) {
+#menu:checked + .nav-trigger .line:nth-child(1) {
   transform: translateY(4px) rotate(-45deg);
 }
 
-#menu:checked + .menu .line:nth-child(2) {
+#menu:checked + .nav-trigger .line:nth-child(2) {
   transform: translateY(-4px) rotate(45deg);
 }
 </style>

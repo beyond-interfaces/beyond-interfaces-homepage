@@ -17,6 +17,10 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
   font-family: Aeonik, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
@@ -30,20 +34,26 @@
   background: var(--color-primary);
 }
 
+p {
+  margin-top: 0;
+}
+
 h1,
 h2,
 h3,
 h4 {
+  margin-top: 0;
   font-weight: normal;
 }
 
 h1 {
   font-size: 32px;
   line-height: 38px;
+  margin-bottom: 0;
 
   @include breakpoint('m') {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 60px;
+    line-height: 69px;
   }
 }
 
@@ -72,5 +82,11 @@ a {
   color: var(--color-grey);
 }
 
-p {
+address {
+  font-style: normal;
+}
+
+ul {
+  padding: 0 20px;
+  margin: var(--spacing-s) 0;
 }

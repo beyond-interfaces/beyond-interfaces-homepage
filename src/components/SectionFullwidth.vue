@@ -1,28 +1,31 @@
 <template>
-  <section id="name" class="section__spacing" :style="styleObject">
-    <div class="container" :class="{ inverted: bgColor }">
-      <slot name="image" v-if="image">
-        <component :is="'image'"></component>
-      </slot>
+  <section :id="name" class="section__spacing" :class="{ 'section--shifted': shifted }" :style="styleObject">
+    <div class="container" :class="{ inverted: inverted, flex: image }">
+      <div class="logo">
+        <slot name="image"></slot>
+      </div>
       <article>
         <h2>
           <slot name="title"></slot>
         </h2>
-        <p>
-          <slot name="description"></slot>
-        </p>
+
+        <slot name="description"></slot>
       </article>
     </div>
   </section>
 </template>
 
 <script>
+import CrystalSymmetric from '~/assets/icons/crystal-symmetric.svg';
+
 export default {
-  props: ['bgColor', 'image'],
+  components: { CrystalSymmetric },
+  props: ['bgColor', 'name', 'image', 'inverted', 'shifted'],
   data() {
     return {
       styleObject: {
-        background: this.bgColor ? `var(--color-${this.bgColor})` : 'var(--color-white)'
+        'background-color': this.bgColor ? this.bgColor : 'var(--color-white)'
+        // 'background-image': 'url(' + CrystalSymmetric + ')'
       }
     };
   }
@@ -31,9 +34,16 @@ export default {
 
 <style lang="scss" scoped>
 $section-min-height: 460px;
+$section-paragraph-width: 65%;
 
 section {
-  min-height: $section-min-height;
+  &.section--shifted {
+    @include breakpoint('m') {
+      .container > article {
+        margin-left: calc(12 * var(--spacing-m));
+      }
+    }
+  }
 
   & .container {
     padding: var(--spacing-m);
@@ -42,8 +52,20 @@ section {
       color: var(--color-white);
     }
 
+    &.flex {
+      display: flex;
+    }
+
     @include breakpoint('m') {
-      padding: va(--spacing-l) var(--spacing-xl);
+      padding: var(--spacing-xl) var(--spacing-xl);
+
+      > article {
+        width: $section-paragraph-width;
+        margin-left: var(--spacing-m);
+      }
+
+      .logo {
+      }
     }
   }
 }

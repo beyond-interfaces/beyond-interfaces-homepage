@@ -12,3 +12,154 @@ svg {
   width: 100%;
   height: 100%;
 }
+
+$section-min-height: 460px;
+
+section {
+  display: flex;
+}
+
+.container {
+  position: relative;
+  padding: 0 var(--spacing-m);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+
+  @include breakpoint('m') {
+    width: 100%;
+    max-width: map-get($breakpoints, 'm');
+    margin: 0 auto;
+    padding: var(--spacing-l) var(--spacing-xl);
+  }
+}
+
+.section__spacing {
+  padding: var(--spacing-m) 0;
+
+  @include breakpoint('m') {
+    padding: var(--spacing-xl) auto;
+  }
+}
+
+.link-list {
+  margin-top: var(--spacing-m);
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint('m') {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  & a {
+    font-weight: 700;
+  }
+}
+
+.container.inverted {
+  .link-list {
+    & a {
+      color: var(--color-white);
+    }
+  }
+}
+
+#hero-stage {
+  & .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 360px;
+  }
+
+  h1 {
+    z-index: 2;
+
+    @include breakpoint('m') {
+      font-size: 48px;
+      line-height: 55px;
+    }
+  }
+
+  .icon-crystal {
+    position: absolute;
+    right: -20%;
+    // bottom: 20px;
+    fill: #94cfc0;
+    z-index: 0;
+    width: 50%;
+    transform: rotate(-15deg);
+
+    @include breakpoint('m') {
+      width: auto;
+      transform: rotate(0);
+      right: 20px;
+    }
+  }
+}
+
+#services {
+  .service {
+    display: flex;
+    flex-direction: column;
+
+    & + .service {
+      margin-top: var(--spacing-xl);
+    }
+
+    @include breakpoint('m') {
+      flex-direction: row;
+
+      &:nth-child(odd) {
+        .service__container {
+          order: 0;
+          article {
+            padding: 0 60px 0 0;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        .service__container {
+          order: 1;
+          article {
+            padding: 0 0 0 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#meetups {
+  & .logo {
+    height: 200px;
+    margin-bottom: var(--spacing-m);
+  }
+
+  @include breakpoint('m') {
+    & .container {
+      flex-direction: row;
+    }
+    & .logo {
+      height: 200px;
+      width: 20%;
+    }
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-background-darkest);
+  outline: 1px solid slategrey;
+}
