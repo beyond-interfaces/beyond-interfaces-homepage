@@ -5,4 +5,14 @@ import DefaultLayout from '~/layouts/Default.vue';
 
 export default function(Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout);
+
+  head.meta.push({
+    name: 'keywords',
+    content: 'UX Design, UI Design, JavaScript, Typescript, SPA, Single Page Applications, Development, SCRUM'
+  });
+
+  // head.meta.push({
+  //   name: 'description',
+  //   content: ''
+  // });
 }

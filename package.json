@@ -7,9 +7,11 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/transformer-remark": "^0.6.3",
     "gridsome": "^0.7.22"
   },
   "devDependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
     "eslint": "^7.13.0",
     "eslint-plugin-vue": "^7.1.0",
     "gridsome-plugin-base-components": "0.0.12",

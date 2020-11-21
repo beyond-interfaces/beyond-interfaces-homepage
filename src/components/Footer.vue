@@ -9,11 +9,10 @@
 </template>
 
 <script>
-import BrandLogo from '~/assets/icons/bi-logo.svg';
+import BrandLogo from '~/assets/icons/bi-logo.svg?inline';
 
 export default {
-  name: 'Footer',
-  components: [BrandLogo]
+  components: { BrandLogo }
 };
 </script>
 

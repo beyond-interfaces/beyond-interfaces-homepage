@@ -16,12 +16,28 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'beyond interfaces',
+  siteUrl: 'https://www.beyond-interfaces.com',
+  titleTemplate: 'beyond interfaces | %s',
   plugins: [
     {
-      use: 'gridsome-plugin-svg'
+      use: 'gridsome-plugin-svg',
+      options: {
+        goesBothWays: true
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/**/*.md',
+        typeName: 'ServiceSection',
+        remark: {
+          // remark options
+        }
+      }
     }
   ],
+  icon: './src/favicon.png',
   chainWebpack(config) {
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
     types.forEach(type => {
