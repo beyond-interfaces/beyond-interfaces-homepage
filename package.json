@@ -7,17 +7,17 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/transformer-remark": "^0.6.3",
-    "gridsome": "^0.7.22"
-  },
-  "devDependencies": {
+    "gridsome": "^0.7.22",
     "@gridsome/source-filesystem": "^0.6.2",
-    "eslint": "^7.13.0",
-    "eslint-plugin-vue": "^7.1.0",
+    "@gridsome/transformer-remark": "^0.6.3",
     "gridsome-plugin-base-components": "0.0.12",
     "gridsome-plugin-svg": "0.0.14",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.0",
-    "style-resources-loader": "^1.4.1"
+    "node-sass": "4.14.1",
+    "sass-loader": "10.1.0",
+    "style-resources-loader": "1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-vue": "^7.1.0"
   }
 }
