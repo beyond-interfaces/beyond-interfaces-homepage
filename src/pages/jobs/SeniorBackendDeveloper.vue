@@ -51,17 +51,6 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'match'" :shifted=false>
-      <template v-slot:title>
-        Das klingt nach dir?
-      </template>
-      <template v-slot:description>
-        <p>
-          Dann bist du bei uns genau richtig!
-        </p>
-      </template>
-    </SectionFullwidth>
-
     <SectionFullwidth :name="'contact-us'" :shifted=true :bgColor="'var(--color-primary'">
       <template v-slot:title>
         Interessiert?
