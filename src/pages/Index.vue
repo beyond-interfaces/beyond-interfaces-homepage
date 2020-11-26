@@ -37,7 +37,7 @@
       </template>
       <template v-slot:description>
         Wir sind ständig auf der Suche nach Verstärkung für unser Team. Anstelle von schnellem Wachstum setzen wir dabei
-        auf Mitarbeiter*innen die unsere Leidenschaft für gute und benutzerfreundliche Software genauso teilen wir wir
+        auf Mitarbeiter*innen, die unsere Leidenschaft für gute und benutzerfreundliche Software genauso teilen wir wir
         selbst.
         <div class="link-list">
           <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'" />
