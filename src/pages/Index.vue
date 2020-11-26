@@ -58,7 +58,7 @@
           Angular Cologne ist der Treffpunkt für die Kölner Angular-Szene. Willkommen ist jeder der sich für Angular
           interessiert und Teil unserer Community werden möchte.
         </p>
-        <ArrowLink :text="'angular.cologne'" :href="'https://www.meetup.com/de-DE/angular-cologne/'" />
+        <ArrowLink :text="'angular.cologne'" :href="'https://angular.cologne/'" />
       </template>
     </SectionFullwidth>
   </Layout>

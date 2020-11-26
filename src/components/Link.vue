@@ -1,5 +1,5 @@
 <template>
-  <div><ArrowRight /> <g-link to="https://www.meetup.com/de-DE/angular-cologne/">angular.cologne</g-link></div>
+  <div><ArrowRight /> <g-link to="https://angular.cologne/">angular.cologne</g-link></div>
 </template>
 
 <script>
