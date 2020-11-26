@@ -5,7 +5,7 @@
 
       <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p>
-        <strong>Beyond Interfaces GmbH &amp; Co. KG</strong>
+        <strong>beyond interfaces GmbH &amp; Co. KG</strong>
         <br />Eythstr. 17 <br />51103 K&ouml;ln
       </p>
 
@@ -15,7 +15,13 @@
       </p>
 
       <p>
-        <strong>Vertreten durch die pers&ouml;nlich haftende Gesellschafterin:</strong>
+        <strong>Vertreten durch:</strong>
+        beyond interfaces Verwaltungs GmbH
+       <p>
+       
+        Handelsregister: HRB 96827
+        <br />Registergericht: Amtgericht K&ouml;ln
+        Diese vertreten durch:
         <br />Tilman Reiff <br />Martina H&ouml;fflin <br />Christoph H&ouml;ller
       </p>
 
@@ -24,17 +30,17 @@
         <br />Tilman Reiff <br />Christoph H&ouml;ller
       </p>
 
-      <p>
-        Handelsregister: HRA 33843
-        <br />Registergericht: Amtsgericht K&ouml;ln
-      </p>
-
+      
       <h2>Kontakt</h2>
       <p>
         Telefon: 0221 471 51 007
         <br />E-Mail: info@beyond-interfaces.com
       </p>
-
+      <h2>Umsatzsteuer-ID</h2>
+      <p>
+      Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+      DE323168521
+      </p>
       <p>
         Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
         teilzunehmen.
