@@ -16,12 +16,13 @@
 
       <p>
         <strong>Vertreten durch:</strong>
+        <br />
         beyond interfaces Verwaltungs GmbH
-       <p>
-       
+      </p>
+      <p>
         Handelsregister: HRB 96827
         <br />Registergericht: Amtgericht K&ouml;ln
-        Diese vertreten durch:
+        <br />Diese vertreten durch:
         <br />Tilman Reiff <br />Martina H&ouml;fflin <br />Christoph H&ouml;ller
       </p>
 
@@ -31,12 +32,12 @@
       </p>
 
       
-      <h2>Kontakt</h2>
+      <h3>Kontakt</h3>
       <p>
         Telefon: 0221 471 51 007
         <br />E-Mail: info@beyond-interfaces.com
       </p>
-      <h2>Umsatzsteuer-ID</h2>
+      <h3>Umsatzsteuer-ID</h3>
       <p>
       Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
       DE323168521
