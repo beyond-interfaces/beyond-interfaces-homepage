@@ -33,12 +33,13 @@
       </p>
 
       
-      <h3>Kontakt</h3>
+      <strong>Kontakt</strong>
       <p>
         Telefon: 0221 471 51 007
         <br />E-Mail: info@beyond-interfaces.com
       </p>
-      <h3>Umsatzsteuer-ID</h3>
+      
+      <strong>Umsatzsteuer-ID</strong>
       <p>
       Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
       DE323168521
