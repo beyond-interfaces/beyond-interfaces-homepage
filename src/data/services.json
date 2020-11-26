@@ -1,12 +1,12 @@
 [
     {
         "title": "Solution Engineering",
-        "description": "Solution Engineering bedeutet für uns, zunächst einmal Ihre Use-Cases und vorhandenen Rahmenbedingungen zu verstehen. Unsere Architekturen erstellen wir ohne Technologie-Scheuklappen, mit dem Anspruch Ihnen auf dem für Sie besten Weg zum Ziel zu verhelfen.",
+        "description": "Solution Engineering bedeutet für uns, zunächst einmal Ihre Use Cases und vorhandenen Rahmenbedingungen zu verstehen. Unsere Architekturen erstellen wir ohne Technologie-Scheuklappen mit dem Anspruch, Ihnen auf dem für Sie besten Weg zum Ziel zu verhelfen.",
         "image": "SolutionEngineering"
     },
     {
         "title": "Software Modernization",
-        "description": "Jahrelang gewachsene IT-Infrastrukturen und veraltete Softwaresysteme sind oft Hemmschuh für Flexibilität und Innovation. Durch unsere Erfahrung aus zahlreichen Modernisierungsprojekten wissen wir, wie man bestehende Systemlandschaften nachhaltig und inkrementell umbaut.",
+        "description": "Jahrelang gewachsene IT-Infrastrukturen und veraltete Softwaresysteme sind oft Hemmschuh für Flexibilität und Innovation. Durch unsere Erfahrung aus zahlreichen Modernisierungs&shy;projekten wissen wir, wie man bestehende Systemlandschaften nachhaltig und inkrementell umbaut.",
         "image": "SoftwareModernization"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "title": "Training / Consulting",
-        "description": "Wandel muss nicht zuletzt auch in den Köpfen derjenigen stattfinden, die ihn treiben sollen. Unsere auf Vorwissen und Projekt abgestimmten Schulungsangebote schaffen Basiswissen, unterstützen beim Kick-off oder begleiten Teams über das gesamte Projekt.",
+        "description": "Wandel muss nicht zuletzt auch in den Köpfen derjenigen stattfinden, die ihn treiben sollen. Unsere auf Vorwissen und Projekte abgestimmten Schulungsangebote schaffen Basiswissen, unterstützen beim Kick-off oder begleiten Teams über das gesamte Projekt.",
         "image": "Training"
     }
 ]
