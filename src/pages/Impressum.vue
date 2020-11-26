@@ -20,10 +20,11 @@
         beyond interfaces Verwaltungs GmbH
       </p>
       <p>
-        Handelsregister: HRB 96827
-        <br />Registergericht: Amtgericht K&ouml;ln
         <br />Diese vertreten durch:
         <br />Tilman Reiff <br />Martina H&ouml;fflin <br />Christoph H&ouml;ller
+      </p>  
+      <p>Handelsregister: HRB 96827
+        <br />Registergericht: Amtgericht K&ouml;ln
       </p>
 
       <p>
