@@ -16,12 +16,12 @@
       <template v-slot:description>
         <p>
           <ul>
-            <li>ein großartiges Team aus echten Experten im Bereich Software-Entwicklung und User-Experience-Design</li>
-            <li>wirklich spannende Projekte bei internationalen Kunden (mehr dazu im persönlichen Gespräch)</li>
-            <li>einen Remote-First Arbeitsplatz bei dem du selbst entscheidest wo und wie du am effizientesten arbeitest.</li>
+            <li>ein großartiges Team aus echten Expert*innen im Bereich Software Entwicklung und User Experience Design</li>
+            <li>spannende Projekte bei internationalen Kunden (mehr dazu im persönlichen Gespräch)</li>
+            <li>einen Remote First Arbeitsplatz bei dem du selbst entscheidest, wo und wie Du am effizientesten arbeitest</li>
             <li>ein attraktives und leistungsbezogenes Gehalt</li>
-            <li>die Möglichkeit den Aufbau unseres Unternehmens mitzugestalten und Verantwortung zu übernehmen</li>
-            <li>ein frei verfügbares Weiterbildungs-Budget in Höhe von 2000 € / Jahr</li>
+            <li>die Möglichkeit, den Aufbau unseres Unternehmens mitzugestalten und Verantwortung zu übernehmen</li>
+            <li>ein frei verfügbares Weiterbildungsbudget in Höhe von 2000 € / Jahr</li>
             <li>regelmäßige Teamevents und gemeinsame Aktivitäten (z.B. Wake-Boarding / Mountainbiken / Klettern)</li>
             <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office!)</li>
             <li>ein JobTicket für den ÖPNV sowie die Möglichkeit dir ein Job-Bike auszusuchen</li>
@@ -39,13 +39,13 @@
           <ul>
             <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
             <li>lanjährige Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular und TypeScript</li>
-            <li>fundiertes Know-How im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen CSS-Architekturen (BEM / IT-CSS)</li>
+            <li>fundiertes Know-how im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen CSS-Architekturen (BEM / IT-CSS)</li>
             <li>Kenntnisse im Bereich Testautomatisierung für Web-Applikationen (Cypress / Wiremock / Contract-Testing)</li>
             <li>erste Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere AWS)</li>
-            <li>ein grundlegendes Verständnis für moderne Software-Architekturen und gutes Schnittstellen-Design</li>
-            <li>einen hohen Qualitätanspruch an deine eigene Arbeit</li>
-            <li>die Bereitschaft dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
-            <li>keine Angst davor alte Gewohnheiten über Bord zu werfen und Lösungen zu hinterfragen</li>
+            <li>ein grundlegendes Verständnis für moderne Softwarearchitekturen und gutes Schnittstellendesign</li>
+            <li>einen hohen Qualitätanspruch an Deine eigene Arbeit</li>
+            <li>die Bereitschaft, Dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
+            <li>keine Angst davor, alte Gewohnheiten über Bord zu werfen und Lösungen zu hinterfragen</li>
           </ul>
         </p>
       </template>
@@ -57,9 +57,9 @@
       </template>
       <template v-slot:description>
         <p>
-          Wir benötigen keine Arbeitszeugnisse oder von Floskeln übersähten Anschreiben, sondern möchten dich
-          gerne direkt kennenlernen! Schicke uns einfach eine kurze formlose E-Mail oder eine Whatsapp und
-          wir vereinbaren einen ersten unverbindlichen Kennenlern-Termin!
+          Wir benötigen keine Arbeitszeugnisse oder von Floskeln übersähten Anschreiben, sondern möchten Dich
+          gerne direkt kennenlernen! Schicke uns einfach eine kurze formlose E-Mail und
+          wir vereinbaren einen ersten unverbindlichen Kennenlerntermin!
         </p>
         <ArrowLink :text="'Schreib uns eine Mail!'" :href="'mailto:info@beyond-interfaces.com'" :color="'var(--color-grey)'"/>
       </template>
