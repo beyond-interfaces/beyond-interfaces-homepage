@@ -30,6 +30,10 @@ export default {
 <style lang="scss" scoped>
 $section-paragraph-width: 65%;
 
+li {
+  margin-top: var(--spacing-s);
+}
+
 section {
   &.section--shifted {
     @include breakpoint('m') {
