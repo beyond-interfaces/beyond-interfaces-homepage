@@ -21,7 +21,7 @@ module.exports = function(api) {
   api.createPages(({ createPage }) => {
     createPage({
       path: '/jobs/',
-      component: './src/pages/jobs/SeniorBackendDeveloper.vue'
+      component: './src/pages/jobs/TeamLead.vue'
     });
   });
 };

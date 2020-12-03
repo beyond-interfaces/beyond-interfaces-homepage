@@ -1,20 +1,24 @@
 <template>
   <Layout>
      <section class="container">
-      <ArrowLink :text="'Team Lead / Senior Fullstack-Engineer (m/w/d)'" :href="'/jobs/team-lead'" :color="'var(--color-grey)'"/>
-      <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Backend (m/w/d)'" :href="'/jobs/senior-backend-developer'" :color="'var(--color-grey)'"/>
-      <ArrowLink :text="'Senior Software-Engineer & Solution-Architect • Frontend (m/w/d)'" :href="'/senior-frontend-developer'" :color="'var(--color-primary)'"/>
+      <ArrowLink :text="'Team Lead / Senior Fullstack-Engineer (m/w/d)'" :href="'/jobs/team-lead'" :color="'var(--color-primary)'"/>
+      <ArrowLink :text="'Senior Software-Engineer / Solution-Architect • Backend (m/w/d)'" :href="'/jobs/senior-backend-developer'" :color="'var(--color-grey)'"/>
+      <ArrowLink :text="'Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)'" :href="'/jobs/senior-frontend-developer'" :color="'var(--color-grey)'"/>
     </section>
 
     <section class="container u-padding-bottom-none">
-      <h1>Senior Software-Engineer & Solution-Architect • Frontend (m/w/d)</h1>
+      <h1>Team Lead / Senior Fullstack-Engineer (m/w/d)</h1>
     </section>
 
     <SectionFullwidth :name="'we'" >
       <template v-slot:title>
-        Wir bieten dir…
       </template>
       <template v-slot:description>
+        <div class="introduction">
+          Die beyond interfaces GmbH & Co. KG entwickelt Business Anwendungen mit höchsten Ansprüchen an Benutzerfreundlich&shy;keit und Technik. 
+          Zum Aufbau eines weiteren Teil-Teams suchen wir zum nächstmöglichen Zeitpunkt nach Verstärkung.
+        </div>
+        <h2>Wir bieten dir…</h2>
         <p>
           <ul>
             <li>ein großartiges Team aus echten Expert*innen im Bereich Software Entwicklung und User Experience Design</li>
@@ -38,11 +42,10 @@
       <template v-slot:description>
         <p>
           <ul>
-            <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
-            <li>lanjährige Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular und TypeScript</li>
-            <li>fundiertes Know-how im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen CSS-Architekturen (BEM / IT-CSS)</li>
-            <li>Kenntnisse im Bereich Testautomatisierung für Web-Applikationen (Cypress / Wiremock / Contract-Testing)</li>
-            <li>erste Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere AWS)</li>
+            <li>Erfahrung in der Führung von Teams & in der direkten Kommunikation mit Stakeholdern</li>
+            <li>fundiertes Know-how in der Entwicklung von komplexen Business-Anwendungen auf Basis von Java oder Kotlin</li>
+            <li>Kenntnisse in der Entwicklung von Web-Applikationen auf Basis von Angular und TypeScript</li>
+            <li>Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere Kubernetes & AWS)</li>
             <li>ein grundlegendes Verständnis für moderne Softwarearchitekturen und gutes Schnittstellendesign</li>
             <li>einen hohen Qualitätanspruch an Deine eigene Arbeit</li>
             <li>die Bereitschaft, Dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
@@ -52,7 +55,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'contact-us'" :shifted=true :bgColor="'var(--color-primary'">
+    <SectionFullwidth :name="'contact-us'" :shifted=true :bgColor="'var(--color-primary)'">
       <template v-slot:title>
         Interessiert?
       </template>
@@ -80,3 +83,9 @@ export default {
   }
 };
 </script>
+
+<style>
+  .introduction {
+     padding-bottom: var(--spacing-l);
+  }
+</style>
