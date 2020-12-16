@@ -65,10 +65,9 @@
           zählen dazu außerdem die vollständige Übernahme aller für das Homeoffice anfallenden Kosten - sei es für einen neuen Bürostuhl,
           den Gaming Monitor oder auch für eine Palette deines Lieblings-Kaffees!
         </p>
-       <!-- <p>
-          (Wenn du mehr über unseren Ansatz und unser Remote-Strategie erfahren möchtest, möchten wir dich an dieser Stelle auf unseren
-          Medium-Artikel zu dem Thema verweisen)
-        </p> -->
+        <p>
+          (Im folgenden Medium-Artikel findest du mehr Details zu unserer Remote-Strategie: https://beyondinterfaces.medium.com/how-we-transformed-our-company-8c7dcd1bea94)
+        </p> 
       </template>
     </SectionFullwidth>
 
