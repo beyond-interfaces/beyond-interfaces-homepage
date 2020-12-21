@@ -1,6 +1,11 @@
 <template>
   <div class="layout">
-    <Header />
+    <template v-if="isMobileLayout">
+      <HeaderMobile :links="links" />
+    </template>
+    <template v-else>
+      <HeaderDesktop :links="links" />
+    </template>
     <main id="main">
       <slot />
     </main>
@@ -9,13 +14,44 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue';
+import HeaderDesktop from '~/components/HeaderDesktop.vue';
+import HeaderMobile from '~/components/HeaderMobile.vue';
 import Footer from '~/components/Footer.vue';
+import { mobileDetection } from '~/mixins/mobileDetection';
 
 export default {
   components: {
-    Header,
+    HeaderDesktop,
+    HeaderMobile,
     Footer
+  },
+  mixins: [mobileDetection],
+  data() {
+    return {
+      isMobileLayout: false,
+      links: [
+        {
+          title: 'Arbeiten bei beyond',
+          url: '/arbeiten-bei-beyond/'
+        },
+        {
+          title: 'Jobs',
+          url: '/jobs/'
+        }
+        // { title: '/about-us/', url: 'Über uns' }
+      ]
+    };
+  },
+  created() {
+    window.addEventListener('resize', this.onResizeWindow);
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.onResizeWindow);
+  },
+  methods: {
+    onResizeWindow(e) {
+      this.isMobileLayout = this.isMobile();
+    }
   }
 };
 </script>
@@ -24,5 +60,10 @@ export default {
 .layout {
   margin: 0 auto;
   padding: 0;
+}
+@include breakpoint('m') {
+  #main {
+    padding-top: 120px;
+  }
 }
 </style>

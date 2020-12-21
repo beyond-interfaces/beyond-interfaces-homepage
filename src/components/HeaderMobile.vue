@@ -1,29 +1,30 @@
 <template>
   <header id="header" :class="{ 'nav-open': navOpen }">
-    <g-link to="/" class="logo-link">
-      <BrandLogo class="logo" />
-    </g-link>
-    <input type="checkbox" :checked="navOpen" @click="toggleMenu()" id="menu" />
-    <label for="menu" class="nav-trigger">
-      <span class="line"></span>
-      <span class="line"></span>
-    </label>
-    <nav class="nav-container" id="navigation">
-      <ul v-show="navOpen" class="nav-list">
-        <li><g-link class="nav__link" to="/">Home</g-link></li>
-        <li><g-link class="nav__link" to="/arbeiten-bei-beyond/">Arbeiten bei beyond</g-link></li>
-        <li><g-link class="nav__link" to="/jobs/">Jobs</g-link></li>
-        <li><g-link class="nav__link" to="/impressum/">Impressum</g-link></li>
-      </ul>
-    </nav>
+    <div class="header__wrapper">
+      <g-link to="/" class="logo-link">
+        <BrandLogo class="logo" />
+      </g-link>
+      <input type="checkbox" :checked="navOpen" @click="toggleMenu()" id="menu" />
+      <label for="menu" class="nav-trigger">
+        <span class="line"></span>
+        <span class="line"></span>
+      </label>
+      <nav class="nav-container" id="navigation">
+        <ul v-show="navOpen" class="nav-list">
+          <li v-for="link in links" :key="link.title">
+            <g-link class="nav__link" :to="link.url">{{ link.title }}</g-link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 </template>
 
 <script>
 import BrandLogo from '~/assets/icons/bi-logo.svg?inline';
-
 export default {
   components: { BrandLogo },
+  props: ['links'],
   data() {
     return {
       navOpen: false
@@ -37,11 +38,11 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $logo-width: 160px;
 $header-height: 110px;
-$header-height-m: 150px;
 $navigation-width: 320px;
+$hamburger-icon-size: 24px;
 
 #header {
   position: relative;
@@ -54,18 +55,8 @@ $navigation-width: 320px;
   position: relative;
   padding: 0 var(--spacing-m);
 
-  @include breakpoint('m') {
-    height: $header-height-m;
-    padding: 0;
-  }
-
   .logo-link {
     margin-left: calc(-1 * var(--spacing-s));
-    // margin-top: var(--spacing-m);
-    @include breakpoint('m') {
-      // margin-top: var(--spacing-m);
-      margin-left: -$logo-width / 2;
-    }
   }
 
   .logo {
@@ -79,10 +70,6 @@ $navigation-width: 320px;
 
   & li a {
     text-decoration: none;
-    // color: grey;
-    &:hover {
-      // color: darkgray;
-    }
   }
 }
 
@@ -91,8 +78,8 @@ $navigation-width: 320px;
   z-index: 4;
   top: var(--spacing-m);
   right: var(--spacing-m);
-  height: 24px;
-  width: 24px;
+  height: $hamburger-icon-size;
+  width: $hamburger-icon-size;
   overflow: hidden;
   color: transparent;
   white-space: nowrap;
@@ -100,20 +87,18 @@ $navigation-width: 320px;
 }
 
 .nav-container {
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: calc(100vw - var(--spacing-m) * 2);
-  max-width: $navigation-width;
-  padding: var(--spacing-m);
-  padding: var(--spacing-m);
   background: var(--color-primary);
+  height: 100%;
+  max-width: $navigation-width;
   overflow: auto;
-  transform: translateZ(0);
-  transform: translateX(100%);
+  padding: var(--spacing-m);
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateZ(0) translateX(100%);
   transition: transform 0.5s cubic-bezier(0.07, 0.23, 0.34, 1);
+  width: calc(100vw - var(--spacing-m) * 2);
+  z-index: 3;
 }
 
 .nav-open .nav-container {
@@ -121,10 +106,10 @@ $navigation-width: 320px;
 }
 
 .nav-list a {
+  color: #1f2b3d;
   display: block;
   padding: var(--spacing-xs) 0;
   text-decoration: none;
-  color: #1f2b3d;
   transform: translateZ(0);
 }
 
@@ -162,11 +147,10 @@ $navigation-width: 320px;
 
 label.menu {
   display: block;
-  width: 24px;
-  height: 24px;
+  height: $hamburger-icon-size;
+  margin: 0 auto;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  width: $hamburger-icon-size;
 }
 
 input#menu {
@@ -177,7 +161,7 @@ input#menu {
   position: absolute;
   left: 0;
   height: 2px;
-  width: 24px;
+  width: $hamburger-icon-size;
   background: var(--color-grey);
   border-radius: 2px;
   display: block;
