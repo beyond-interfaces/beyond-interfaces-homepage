@@ -7,9 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.22",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.3",
+    "aos": "^2.3.4",
+    "gridsome": "^0.7.22",
     "gridsome-plugin-base-components": "0.0.12",
     "gridsome-plugin-svg": "0.0.14",
     "node-sass": "4.14.1",
