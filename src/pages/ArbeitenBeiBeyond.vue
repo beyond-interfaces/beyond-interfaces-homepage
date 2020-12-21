@@ -4,7 +4,7 @@
       <h1>Arbeiten bei beyond</h1>
     </section>
 
-    <SectionFullwidth :name="'team'">
+    <SectionFullwidth :name="'team'" data-aos="fade-up">
       <template v-slot:title>
         Team
       </template>
@@ -24,7 +24,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'culture'" :bgColor="'var(--color-background-dark)'" :shifted=true>
+    <SectionFullwidth :name="'culture'" :bgColor="'var(--color-background-dark)'" :shifted="true" data-aos="fade-up" data-aos-delay="400">
       <template v-slot:title>
         Culture over Skills
       </template>
@@ -48,7 +48,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'newnormal'">
+    <SectionFullwidth :name="'newnormal'" data-aos="fade-up">
       <template v-slot:title>
         The New Normal: Remote First
       </template>
@@ -71,7 +71,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'onsite'" :bgColor="'var(--color-background-darkest)'" :inverted=true  :shifted=true>
+    <SectionFullwidth :name="'onsite'" :bgColor="'var(--color-background-darkest)'" :inverted="true"  :shifted="true" data-aos="fade-up">
       <template v-slot:title>
         On-Site as a Tool
       </template>
@@ -90,7 +90,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'education'">
+    <SectionFullwidth :name="'education'" data-aos="fade-up">
       <template v-slot:title>
         Mitarbeiterentwicklung & Weiterbildung
       </template>
@@ -118,7 +118,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'onsite'" :bgColor="'var(--color-background-darkest)'" :inverted="true">
+    <SectionFullwidth :name="'onsite'" :bgColor="'var(--color-background-darkest)'" :inverted="true" data-aos="fade-up">
       <template v-slot:title>
         Get in Touch!
       </template>
@@ -126,7 +126,7 @@
         <p>
           Das klingt genau nach dem was Du machen möchtest? Dann <a href="mailto:info@beyond-interfaces.com">ping</a> uns doch einfach direkt an. Wir freuen uns auf Dich!
         </p>
-         <ArrowLink :text="'Aktuelle Stellenauschreibungen'" :href="'/jobs/'" :color="'var(--color-white)'"/>
+         <ArrowLink :text="'Aktuelle Stellenauschreibungen'" :href="'/jobs/'" :color="'var(--color-white)'" data-aos="fade-right" data-aos-delay="400" />
       </template>
     </SectionFullwidth>
   </Layout>

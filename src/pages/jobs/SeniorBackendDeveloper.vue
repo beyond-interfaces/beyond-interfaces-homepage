@@ -10,7 +10,7 @@
       <h1>Senior Software Engineer & Solution Architect • Backend (m/w/d)</h1>
     </section>
 
-    <SectionFullwidth :name="'we'" >
+    <SectionFullwidth :name="'we'" data-aos="fade-up" data-aos-delay="400">
       <template v-slot:title>
         Wir bieten dir…
       </template>
@@ -31,7 +31,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'you'" :bgColor="'var(--color-background-darkest)'" :inverted=true :shifted=true>
+    <SectionFullwidth :name="'you'" :bgColor="'var(--color-background-darkest)'" :inverted="true" :shifted="true" data-aos="fade-up">
       <template v-slot:title>
         Du hast…
       </template>
@@ -52,7 +52,7 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'contact-us'" :shifted=true :bgColor="'var(--color-primary'">
+    <SectionFullwidth :name="'contact-us'" :bgColor="'var(--color-primary'" data-aos="fade-up">
       <template v-slot:title>
         Interessiert?
       </template>
@@ -62,7 +62,7 @@
           gerne direkt kennenlernen! Schicke uns einfach eine kurze formlose E-Mail und
           wir vereinbaren einen ersten unverbindlichen Kennenlerntermin!
         </p>
-        <ArrowLink :text="'Schreib uns eine E-mail!'" :href="'mailto:info@beyond-interfaces.com'" :color="'var(--color-grey)'"/>
+        <ArrowLink :text="'Schreib uns eine E-mail!'" :href="'mailto:info@beyond-interfaces.com'" :color="'var(--color-grey)'" data-aos="fade-right" data-aos-delay="400" />
       </template>
     </SectionFullwidth>
   </Layout>

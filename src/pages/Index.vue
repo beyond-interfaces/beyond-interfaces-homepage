@@ -20,13 +20,20 @@
 
     <section id="services" class="section__spacing">
       <div class="container">
-        <div class="service" v-for="edge in $static.allServices.edges" :key="edge.node.id">
+        <div
+          class="service"
+          v-for="(edge, index) in $static.allServices.edges"
+          :key="edge.node.id"
+          data-aos="fade-up"
+          v-bind:data-aos-delay="index === 0 ? 400 : 0"
+        >
           <Service v-bind:title="edge.node.title" :description="edge.node.description" :image="edge.node.image" />
         </div>
       </div>
     </section>
 
     <SectionFullwidth
+      data-aos="fade-up"
       :name="'arbeiten-bei-beyond'"
       :bgColor="'var(--color-secondary)'"
       :inverted="true"
@@ -40,13 +47,19 @@
         auf Mitarbeiter*innen, die unsere Leidenschaft für gute und benutzerfreundliche Software genauso teilen wir wir
         selbst.
         <div class="link-list">
-          <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'" />
-          <ArrowLink color="white" :text="'Stellenausschreibungen'" :href="'/jobs'" />
+          <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'" data-aos="fade-right" />
+          <ArrowLink
+            color="white"
+            :text="'Stellenausschreibungen'"
+            :href="'/jobs'"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          />
         </div>
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'meetups'">
+    <SectionFullwidth :name="'meetups'" data-aos="fade-up">
       <template v-slot:image>
         <AngularCologneLogo />
       </template>
@@ -58,7 +71,7 @@
           Angular Cologne ist der Treffpunkt für die Kölner Angular-Szene. Willkommen ist jeder der sich für Angular
           interessiert und Teil unserer Community werden möchte.
         </p>
-        <ArrowLink :text="'angular.cologne'" :href="'https://angular.cologne/'" />
+        <ArrowLink text="angular.cologne" href="https://angular.cologne/" data-aos="fade-right" data-aos-delay="400" />
       </template>
     </SectionFullwidth>
   </Layout>
