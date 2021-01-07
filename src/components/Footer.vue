@@ -8,7 +8,7 @@
         <address class="footer-info u-text-light">
           <div class="address">Eythstrasse 17<br />51103 Köln</div>
           <div class="contact">
-            info@beyond-interfaces.com
+            info@beyond-interfaces.com<br />0221 / 471 510 07
           </div>
         </address>
         <nav class="footer-links">

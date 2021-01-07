@@ -36,7 +36,7 @@
 
           <ul>
             <li>Spaß an der Arbeit in (verteilten) Teams haben</li>
-            <li>neben der technischen Lösung auch ein Interesse an den fachlichen Herausforderungen des Projekts haben</li>
+            <li>neben der technischen Lösung auch ein Interesse an den inhaltlichen Herausforderungen des Projekts haben</li>
             <li>hohe Ansprüche an die eigene Arbeit stellen</li>
             <li>fähig sind, konstruktive Kritik zu geben und anzunehmen</li>
             <li>nicht davor zurückschrecken, neue Lösungswege zu gehen und alte Strategien über Bord zu werfen.</li>
@@ -66,7 +66,7 @@
           den Gaming Monitor oder auch für eine Palette deines Lieblings-Kaffees!
         </p>
         <p>
-          (Im folgenden Medium-Artikel findest du mehr Details zu unserer Remote-Strategie: https://beyondinterfaces.medium.com/how-we-transformed-our-company-8c7dcd1bea94)
+          (Im folgenden Medium-Artikel findest du mehr Details zu unserer Remote-Strategie: <a href="https://beyondinterfaces.medium.com/how-we-transformed-our-company-8c7dcd1bea94">https://beyondinterfaces.medium.com/how-we-transformed-our-company-8c7dcd1bea94</a>)
         </p> 
       </template>
     </SectionFullwidth>
@@ -82,10 +82,7 @@
           Ihren eigenen vier Wänden entfliehen zu können.
         </p>
         <p>
-          Neben Sitz- und Steharbeitsplätzen stehen uns in den offenen Räumen einer alten Kölschkneipe eine große Loftküche, eine Sofalounge,
-          ein Maker Space und ein gemütlicher, grüner Innenhof für entspanntes Arbeiten zur Verfügung. Als Gastgeber des Angular Cologne Meetup,
-          des BÄM-Stammtischs und diverser weiterer Veranstaltungen wie dem Geile Weine Tasting oder dem Dreigang Supper Club verstehen
-          wir unseren Raum dabei nicht nur als Ort zum Arbeiten sondern auch als auch Treffpunkt der Kölner Digital-Gemeinschaft!
+          Neben Sitz- und Steharbeitsplätzen stehen uns in den offenen Räumen einer alten Kölschkneipe eine große Loftküche, eine Sofalounge, ein Maker Space und ein gemütlicher, grüner Innenhof für entspanntes Arbeiten zur Verfügung. Als Gastgeber des Angular Cologne Designsystems Cologne Meetup, sowie diverser Veranstaltungen wie dem BÄM Stammtisch, Geile Weine Tasting oder dem Dreigang Supper Club verstehen wir unseren Raum dabei nicht nur als Ort zum Arbeiten sondern auch als auch Treffpunkt für uns und die Community.
         </p>
       </template>
     </SectionFullwidth>
@@ -97,13 +94,12 @@
       <template v-slot:description>
         <p>
           Wie die gesamte Digitalwelt bewegen auch wir uns im ständigen Spagat zwischen neuen Technologietrends und altbewährten Lösungswegen.
-          Die Geschwindigkeit mit der sich unsere Industrie in den letzten Jahren weiterentwickelt hat ist dabei gleichermaßen beeindruckend wie überwältigend.
+          Die Geschwindigkeit mit der sich unsere Branche in den letzten Jahren weiterentwickelt hat ist dabei gleichermaßen beeindruckend wie überwältigend.
         </p>
         <p>
-          Um langfristig zu bestehen ist es uns wichtig, unseren Mitarbeitern ein Umfeld zu bieten, in dem Sie sich sowohl in Soft- als auch in
-          Hardskills dauerhaft weiterentwickeln können.
+          Um langfristig zu bestehen ist es uns wichtig, unseren Mitarbeitern ein Umfeld zu bieten in dem Sie sich sowohl in Soft- als auch in Hardskills dauerhaft weiterentwickeln können.
         <p>
-          Wenn du dich für uns als Arbeitgeber entscheidest, bieten wir Dir:
+          Wir bieten unseren Arbeitnehmern:
 
           <ul>
             <li>ein festes Weiterbildungsbudget in Höhe von 2000 € / Jahr</li>
@@ -124,7 +120,7 @@
       </template>
       <template v-slot:description>
         <p>
-          Das klingt genau nach dem was Du machen möchtest? Dann <a href="mailto:info@beyond-interfaces.com">ping</a> uns doch einfach direkt an. Wir freuen uns auf Dich!
+          Das klingt genau nach dem was Du machen möchtest? Dann <a href="mailto:info@beyond-interfaces.com">schreib</a> uns doch einfach direkt an. Wir freuen uns auf Dich!
         </p>
          <ArrowLink :text="'Aktuelle Stellenauschreibungen'" :href="'/jobs/'" :color="'var(--color-white)'" data-aos="fade-right" data-aos-delay="400" />
       </template>
