@@ -1,11 +1,6 @@
 <template>
   <div class="layout">
-    <template v-if="isMobileLayout">
       <HeaderMobile :links="links" />
-    </template>
-    <template v-else>
-      <HeaderDesktop :links="links" />
-    </template>
     <main id="main">
       <slot />
     </main>
@@ -32,17 +27,20 @@ export default {
       links: [
         {
           title: 'Arbeiten bei beyond',
-          url: '/arbeiten-bei-beyond/'
+          url: '/arbeiten-bei-beyond'
         },
         {
           title: 'Jobs',
-          url: '/jobs/'
+          url: '/jobs'
         }
         // { title: '/about-us/', url: 'Über uns' }
       ]
     };
   },
-  created() {
+  mounted() {
+    setTimeout(() => {
+      this.onResizeWindow();
+    },100)
     if (process.isClient) {
       window.addEventListener('resize', this.onResizeWindow);
     }
