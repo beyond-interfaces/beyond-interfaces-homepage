@@ -1,7 +1,7 @@
 <template>
   <section :id="name" class="section__spacing" :class="{ 'section--shifted': shifted }" :style="styleObject">
     <div class="container" :class="{ inverted: inverted, flex: image }">
-      <div class="logo">
+      <div v-if="image" class="logo">
         <slot name="image"></slot>
       </div>
       <article>

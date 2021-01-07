@@ -1,10 +1,10 @@
 export const mobileDetection = {
   methods: {
     isMobile() {
-      if (process.isServer) {
-        return false
+      if (process.browser) {
+        return window.screen.width < 960;
       }
-      return window.screen.width < 960;
+      return false;
     }
   }
 };

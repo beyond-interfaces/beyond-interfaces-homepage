@@ -37,17 +37,14 @@ export default {
       ]
     };
   },
-  mounted() {
-    setTimeout(() => {
-      this.onResizeWindow();
-    },100)
-    if (process.isClient) {
+  created() {
+    if (process.browser && window) {
       window.addEventListener('resize', this.onResizeWindow);
     }
   },
   destroyed() {
-    if (process.isClient) {
-    window.removeEventListener('resize', this.onResizeWindow);
+    if (process.browser && window) {
+      window.removeEventListener('resize', this.onResizeWindow);
     }
   },
   methods: {
