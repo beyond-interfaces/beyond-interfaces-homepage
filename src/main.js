@@ -10,7 +10,9 @@ export default function(Vue, { router, head, isClient }) {
     duration: 400,
     once: true
   };
-  AOS.init(config);
+  if (process.isClient) {
+    AOS.init(config);
+  }
   Vue.mixin({
     updated() {
       this.$nextTick(function() {

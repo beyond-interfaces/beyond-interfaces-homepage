@@ -43,10 +43,14 @@ export default {
     };
   },
   created() {
-    window.addEventListener('resize', this.onResizeWindow);
+    if (process.isClient) {
+      window.addEventListener('resize', this.onResizeWindow);
+    }
   },
   destroyed() {
+    if (process.isClient) {
     window.removeEventListener('resize', this.onResizeWindow);
+    }
   },
   methods: {
     onResizeWindow(e) {
