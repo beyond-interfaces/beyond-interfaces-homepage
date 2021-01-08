@@ -1,10 +1,10 @@
 <template>
   <Layout>
-    <section class="container u-padding-bottom-none">
-      <h1>Arbeiten bei beyond</h1>
+    <section class="container u-padding-bottom-none"  >
+      <h1>Arbeiten bei beyonds</h1>
     </section>
 
-    <SectionFullwidth name="team">
+    <SectionFullwidth name="team" data-aos="fade-up">
       <template v-slot:title>
         Team
       </template>
@@ -39,10 +39,9 @@
       </template>
       <template v-slot:description>
         <p>
-          Aus diesem Grund legen wir unser Augenmerk bei der Mitarbeiter*innensuche zunächst einmal auf die Person und
-          deren Persönlichkeit. Getreu dem Motto "Hire for Culture, train for skills" ist es uns wichtig, dass alle sich
-          bei uns im Team wohl fühlen und wir weiter gemeinsam und miteinander wachsen können. So suchen wir
-          insbesondere nach Menschen, die:
+          Aus diesem Grund legen wir unser Augenmerk bei der Mitarbeiter*innensuche zunächst einmal auf dich und
+          deine Persönlichkeit. Getreu dem Motto "Hire for Culture, train for skills" ist es uns wichtig,  dass du dich bei uns im Team wohl fühlst
+          und wir weiter gemeinsam und miteinander wachsen können. So suchen wir insbesondere nach Menschen, die:
         </p>
 
         <ul>
@@ -180,9 +179,15 @@
 <script>
 import SectionFullwidth from '~/components/SectionFullwidth.vue';
 import ArrowLink from '~/components/ArrowLink.vue';
+import AOS from 'aos';
 
 export default {
   name: 'workatbeyond',
-  components: { SectionFullwidth, ArrowLink }
+  components: { SectionFullwidth, ArrowLink },
+    mounted() {
+    if (process.browser && window) {
+       AOS.refresh();
+    }
+  },
 };
 </script>
