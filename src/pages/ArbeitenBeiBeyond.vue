@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="container u-padding-bottom-none"  >
-      <h1>Arbeiten bei beyonds</h1>
+      <h1>Arbeiten bei beyond</h1>
     </section>
 
     <SectionFullwidth name="team" data-aos="fade-up">
