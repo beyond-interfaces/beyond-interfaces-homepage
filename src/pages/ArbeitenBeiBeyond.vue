@@ -1,10 +1,19 @@
 <template>
   <Layout>
-    <section class="container u-padding-bottom-none"  >
+    <section
+      data-aos="fade-up" 
+      data-aos-delay="0"
+
+      class="container u-padding-bottom-none"
+    >
       <h1>Arbeiten bei beyond</h1>
     </section>
 
-    <SectionFullwidth name="team" data-aos="fade-up">
+    <SectionFullwidth
+       data-aos="fade-up" 
+       data-aos-delay="200"
+
+       name="team">
       <template v-slot:title>
         Team
       </template>
@@ -28,11 +37,12 @@
     </SectionFullwidth>
 
     <SectionFullwidth
+      data-aos="fade-up"
+      data-aos-delay="200"
+
       :name="'culture'"
       :bgColor="'var(--color-background-dark)'"
       :shifted="true"
-      data-aos="fade-up"
-      data-aos-delay="400"
     >
       <template v-slot:title>
         Culture over Skills
@@ -61,7 +71,11 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'newnormal'" data-aos="fade-up">
+    <SectionFullwidth 
+      data-aos="fade-up" 
+
+      :name="'newnormal'"
+    >
       <template v-slot:title>
         The New Normal: Remote First
       </template>
@@ -92,11 +106,12 @@
     </SectionFullwidth>
 
     <SectionFullwidth
+      data-aos="fade-up"
+
       :name="'onsite'"
       :bgColor="'var(--color-background-darkest)'"
       :inverted="true"
       :shifted="true"
-      data-aos="fade-up"
     >
       <template v-slot:title>
         On-Site as a Tool
@@ -120,7 +135,10 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'education'" data-aos="fade-up">
+    <SectionFullwidth 
+      data-aos="fade-up" 
+      :name="'education'"
+    >
       <template v-slot:title>
         Mitarbeiterentwicklung & Weiterbildung
       </template>
@@ -153,7 +171,12 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'onsite'" :bgColor="'var(--color-background-darkest)'" :inverted="true" data-aos="fade-up">
+    <SectionFullwidth 
+      data-aos="fade-up" 
+      :name="'onsite'" 
+      :bgColor="'var(--color-background-darkest)'" 
+      :inverted="true"
+    >
       <template v-slot:title>
         Get in Touch!
       </template>
@@ -164,11 +187,12 @@
             <a href="mailto:info@beyond-interfaces.com">schreib</a> uns doch einfach direkt an. Wir freuen uns auf Dich!
           </p>
           <ArrowLink
+            data-aos="fade-right"
+            data-aos-delay="100"
+
             :text="'Aktuelle Stellenauschreibungen'"
             :href="'/jobs/'"
             :color="'var(--color-white)'"
-            data-aos="fade-right"
-            data-aos-delay="400"
           />
         </div>
       </template>

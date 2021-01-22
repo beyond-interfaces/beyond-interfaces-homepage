@@ -8,8 +8,10 @@ import DefaultLayout from '~/layouts/Default.vue';
 export default function(Vue, { router, head, isClient }) {
   if (process.browser) {
     const config = {
-      duration: 400,
-      once: true
+      duration: 700,
+      once: true,
+      easing: "ease-out-quad",
+      offset: 200
     };
     AOS.init(config);
     Vue.mixin({

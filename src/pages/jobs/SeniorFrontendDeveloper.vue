@@ -1,28 +1,47 @@
 <template>
   <Layout>
     <section class="container">
-      <ArrowLink
+      <ArrowLink 
+        data-aos="fade-right" 
+        data-aos-delay="0"
+
         :text="'Team Lead / Senior Fullstack-Engineer (m/w/d)'"
         :href="'/jobs/team-lead/'"
         :color="'var(--color-grey)'"
       />
-      <ArrowLink
+      <ArrowLink 
+        data-aos="fade-right" 
+        data-aos-delay="100"
+
         :text="'Senior Software-Engineer / Solution-Architect • Backend (m/w/d)'"
         :href="'/jobs/senior-backend-developer/'"
         :color="'var(--color-grey)'"
       />
-      <ArrowLink
+      <ArrowLink 
+        data-aos="fade-right" 
+        data-aos-delay="200"
+
         :text="'Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)'"
         :href="'/jobs/senior-frontend-developer/'"
         :color="'var(--color-primary)'"
       />
     </section>
 
-    <section class="container u-padding-bottom-none">
+    <section 
+      data-aos="fade-up" 
+      data-aos-delay="200" 
+      
+      class="container u-padding-bottom-none"
+    >
       <h1>Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)</h1>
     </section>
 
-    <SectionFullwidth name="we" data-aos="fade-up" data-aos-delay="400">
+    <SectionFullwidth 
+      data-aos="fade-up" 
+      data-aos-delay="400" 
+      
+      name="we"
+    >
       <template v-slot:title>
         Wir bieten dir…
       </template>
@@ -48,11 +67,12 @@
     </SectionFullwidth>
 
     <SectionFullwidth
+      data-aos="fade-up"
+
       name="you"
       :bgColor="'var(--color-background-darkest)'"
       :inverted="true"
       :shifted="true"
-      data-aos="fade-up"
     >
       <template v-slot:title>
         Du hast…
@@ -79,7 +99,11 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth name="contact-us" :bgColor="'var(--color-primary'" data-aos="fade-up">
+    <SectionFullwidth 
+      data-aos="fade-up" 
+      
+      name="contact-us" :bgColor="'var(--color-primary'"
+    >
       <template v-slot:title>
         Interessiert?
       </template>
@@ -91,6 +115,9 @@
             unverbindlichen Kennenlerntermin!
           </p>
           <ArrowLink
+            data-aos="fade-right"
+            data-aos-delay="100"
+
             :text="'Schreib uns eine Mail!'"
             :href="'mailto:info@beyond-interfaces.com'"
             :color="'var(--color-grey)'"

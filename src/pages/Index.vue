@@ -1,16 +1,25 @@
 <template>
   <Layout>
-    <section id="hero-stage" class="section__spacing">
-      <div class="container">
+    <section
+      data-aos="fade-up" 
+      data-aos-delay="0" 
+
+      id="hero-stage" class="section__spacing"  
+    >
+      <div class="container" >
         <h1>
           beyond interfaces entwickelt Business Anwendungen mit höchsten Ansprüchen an Benutzerfreundlich&shy;keit und
           Technik.
         </h1>
-        <CrystalIcon class="icon-crystal" />
+        <CrystalIcon class="icon-crystal"/>
       </div>
     </section>
 
-    <section id="subtext" class="section__spacing">
+    <section
+      data-aos="fade-up" 
+      data-aos-delay="400" 
+
+      id="subtext" class="section__spacing" >
       <div class="container">
         <p class="u-text-bold">
           Durch Integration von UX und Software Development schaffen wir Lösungen mit hoher Effizienz und Akzeptanz.
@@ -20,7 +29,10 @@
 
     <section id="services" class="section__spacing">
       <div class="container">
-        <div
+        <div 
+          data-aos="fade-up" 
+          data-aos-delay="0" 
+
           class="service"
           v-for="(edge, index) in $static.allServices.edges"
           :key="edge.node.id"
@@ -30,7 +42,10 @@
       </div>
     </section>
 
-    <SectionFullwidth
+    <SectionFullwidth  
+      data-aos="fade-up" 
+      data-aos-delay="200" 
+
       :name="'arbeiten-bei-beyond'"
       :bgColor="'var(--color-secondary)'"
       :inverted="true"
@@ -44,8 +59,18 @@
         auf Mitarbeiter*innen, die unsere Leidenschaft für gute und benutzerfreundliche Software genauso teilen wir wir
         selbst.
         <div class="link-list">
-          <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'"  />
+          <ArrowLink 
+            data-aos="fade-right"
+            data-aos-delay="100"
+
+            color="white" 
+            :text="'Arbeiten bei beyond'" 
+            :href="'/arbeiten-bei-beyond'"
+          />
           <ArrowLink
+            data-aos="fade-right"
+            data-aos-delay="200"
+
             color="white"
             :text="'Stellenausschreibungen'"
             :href="'/jobs'"
@@ -54,7 +79,12 @@
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'meetups'" >
+    <SectionFullwidth 
+      data-aos="fade-up" 
+      data-aos-delay="200"
+
+      :name="'meetups'"  
+    >
       <template v-slot:image>
         <AngularCologneLogo />
       </template>
@@ -68,10 +98,11 @@
             interessiert und Teil unserer Community werden möchte.
           </p>
           <ArrowLink
+            data-aos="fade-right"
+            data-aos-delay="100"
+            
             text="angular.cologne"
             href="https://angular.cologne/"
-            data-aos="fade-right"
-            data-aos-delay="400"
           />
         </div>
       </template>
