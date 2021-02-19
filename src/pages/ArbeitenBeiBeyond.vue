@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="container u-padding-bottom-none"  >
+    <section class="container u-padding-bottom-none">
       <h1>Arbeiten bei beyond</h1>
     </section>
 
@@ -11,18 +11,18 @@
       <template v-slot:description>
         <div>
           <p>
-            Entstanden aus einer Idee beim Mountainbiken im Jahr 2016, hat sich unser Team in den letzten 4 Jahren
+            Entstanden aus einer Idee beim Mountainbiken im Jahr 2016 hat sich unser Team in den letzten 4 Jahren
             langsam aber stetig von einer "Two-Men Show" zu einem Zusammenschluss von hochmotivierten
-            Software-Entwickler*innen und UX-Designer*innen weiterentwickelt. In diesem Prozess sind uns zwei Dinge
-            besonders wichtig:
+            Software-Entwickler:innen und UX-Designer:innen weiterentwickelt.
           </p>
-          <ul>
+          <p>In diesem Prozess waren uns zwei Dinge immer besonders wichtig:</p>
+          <ol>
             <li>Wir wollen nicht um jeden Preis wachsen.</li>
             <li>
               Wir möchten mit Menschen zusammen arbeiten, die unsere Leidenschaft und Motivation für gute Software genau
               so teilen, wie wir selbst.
             </li>
-          </ul>
+          </ol>
         </div>
       </template>
     </SectionFullwidth>
@@ -39,15 +39,16 @@
       </template>
       <template v-slot:description>
         <p>
-          Aus diesem Grund legen wir unser Augenmerk bei der Mitarbeiter*innensuche zunächst einmal auf dich und
-          deine Persönlichkeit. Getreu dem Motto "Hire for Culture, train for skills" ist es uns wichtig,  dass du dich bei uns im Team wohl fühlst
-          und wir weiter gemeinsam und miteinander wachsen können. So suchen wir insbesondere nach Menschen, die:
+          Aus diesem Grund legen wir unser Augenmerk bei der Mitarbeitersuche zunächst einmal auf dich und deine
+          Persönlichkeit. Getreu dem Motto "Hire for Culture, train for skills" ist es uns wichtig, dass du dich bei uns
+          im Team wohl fühlst und wir weiter gemeinsam und miteinander wachsen können. So suchen wir insbesondere nach
+          Menschen die:
         </p>
 
         <ul>
           <li>Spaß an der Arbeit in (verteilten) Teams haben</li>
           <li>
-            neben der technischen Lösung auch ein Interesse an den inhaltlichen Herausforderungen des Projekts haben
+            neben der technischen Lösung auch ein Interesse an den fachlichen Herausforderungen des Projekts haben
           </li>
           <li>hohe Ansprüche an die eigene Arbeit stellen</li>
           <li>fähig sind, konstruktive Kritik zu geben und anzunehmen</li>
@@ -55,8 +56,8 @@
         </ul>
 
         <p>
-          Wenn du dich in diesen Punkten wiederfindest, würden wir uns wahnsinnig freuen dich bei einem ersten
-          virtuellen Kaffee kennenzulernen!
+          Wenn du dich in diesen Punkten wiederfindest würden wir uns wahnsinnig freuen dich bei einem ersten virtuellen
+          Kaffee kennenzulernen!
         </p>
       </template>
     </SectionFullwidth>
@@ -173,6 +174,10 @@
         </div>
       </template>
     </SectionFullwidth>
+
+    <section>
+      <ImageSlider id="image-slider" />
+    </section>
   </Layout>
 </template>
 
@@ -180,14 +185,21 @@
 import SectionFullwidth from '~/components/SectionFullwidth.vue';
 import ArrowLink from '~/components/ArrowLink.vue';
 import AOS from 'aos';
+import ImageSlider from '~/components/ImageSlider.vue';
 
 export default {
   name: 'workatbeyond',
-  components: { SectionFullwidth, ArrowLink },
-    mounted() {
+  components: { SectionFullwidth, ArrowLink, ImageSlider },
+  mounted() {
     if (process.browser && window) {
-       AOS.refresh();
+      AOS.refresh();
     }
-  },
+  }
 };
 </script>
+
+<style lang="scss">
+#image-slider {
+  height: 500px;
+}
+</style>

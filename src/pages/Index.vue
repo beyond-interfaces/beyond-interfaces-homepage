@@ -20,11 +20,7 @@
 
     <section id="services" class="section__spacing">
       <div class="container">
-        <div
-          class="service"
-          v-for="(edge, index) in $static.allServices.edges"
-          :key="edge.node.id"
-        >
+        <div class="service" v-for="edge in $static.allServices.edges" :key="edge.node.id">
           <Service v-bind:title="edge.node.title" :description="edge.node.description" :image="edge.node.image" />
         </div>
       </div>
@@ -44,17 +40,13 @@
         auf Mitarbeiter*innen, die unsere Leidenschaft für gute und benutzerfreundliche Software genauso teilen wir wir
         selbst.
         <div class="link-list">
-          <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'"  />
-          <ArrowLink
-            color="white"
-            :text="'Stellenausschreibungen'"
-            :href="'/jobs'"
-          />
+          <ArrowLink color="white" :text="'Arbeiten bei beyond'" :href="'/arbeiten-bei-beyond'" />
+          <ArrowLink color="white" :text="'Stellenausschreibungen'" :href="'/jobs'" />
         </div>
       </template>
     </SectionFullwidth>
 
-    <SectionFullwidth :name="'meetups'" >
+    <SectionFullwidth :name="'meetups'">
       <template v-slot:image>
         <AngularCologneLogo />
       </template>

@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-      <HeaderMobile :links="links" />
+    <HeaderMobile :links="links" />
     <main id="main">
       <slot />
     </main>
@@ -32,8 +32,8 @@ export default {
         {
           title: 'Jobs',
           url: '/jobs'
-        }
-        // { title: '/about-us/', url: 'Über uns' }
+        },
+        { title: 'Über uns', url: '/about' }
       ]
     };
   },

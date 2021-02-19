@@ -8,13 +8,22 @@
 module.exports = function(api) {
   api.loadSource(async actions => {
     const services = require('./src/data/services.json');
+    const persons = require('./src/data/persons.json');
 
-    const collection = actions.addCollection({
+    const serviceCollection = actions.addCollection({
       typeName: 'Services'
     });
 
     for (const service of services) {
-      collection.addNode(service);
+      serviceCollection.addNode(service);
+    }
+
+    const personCollection = actions.addCollection({
+      typeName: 'Persons'
+    });
+
+    for (const person of persons) {
+      personCollection.addNode(person);
     }
   });
 
