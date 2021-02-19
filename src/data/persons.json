@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Christoph",
+        "fullName": "Christoph Höller",
+        "description": "Christoph Höller ist Diplom Wirtschaftsinformatiker und unterstützt als Trainer und Berater seit über 12 Jahren Kunden bei der Implementierung hochverfügbarer Unternehmensapplikationen sowie bei der Entwicklung von Webanwendungen auf Basis moderner Webframeworks wie Angular und Vue.js. Sein von Presse und Entwicklern gelobtes Buch “Angular - Das umfassende Handbuch” gilt als Standardwerk im deutschsprachigen Raum.",
+        "imagePath": "/portraits/Christoph.jpg"
+    },
+    {
+        "name": "Martina",
+        "fullName": "Martina Höfflin",
+        "description": "Martina Höfflin ist Diplom Medieninformatikerin und hat in ihrer 20 jährigen beruflichen Laufbahn vom CSS Ninja über Hoschul-Dozentin bis zur Geschäftsführerin einer Digitalagentur viele Facetten der digitalen Medien verinnerlicht. In ihren eigenen preisgekrönten Arbeiten wie den electronic life forms zeigt sich ihr Gespür für schöne Gestaltung und benutzerzentriertes Denken.",
+        "imagePath": "/portraits/Martina.jpg"
+    },
+    {
+        "name": "Tilman",
+        "fullName": "Tilman Reiff",
+        "description": "Tilman Reiff ist Diplom Medieninformatiker und Diplom AV Media und seine Leidenschaft für Interaktionsdesign und User Experience zeigt sich neben seiner 22 jährigen Arbeit für große internationale Unternehmen auch in zahlreichen freien und künstlerischen Projekten wie dem iPhone Spiel Doppelgänger oder dem preisgekrönten Spielautomaten PainStation. ",
+        "imagePath": "/portraits/Tilman.jpg"
+    }
+]

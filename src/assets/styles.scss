@@ -19,6 +19,11 @@ section {
   display: flex;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   position: relative;
   padding: 0 var(--spacing-m);

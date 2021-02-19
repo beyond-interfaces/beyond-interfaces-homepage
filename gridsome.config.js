@@ -29,11 +29,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'content/**/*.md',
-        typeName: 'ServiceSection',
-        remark: {
-          // remark options
-        }
+        path: 'assets/images/**/*.*',
+        typeName: 'Images'
       }
     }
   ],
