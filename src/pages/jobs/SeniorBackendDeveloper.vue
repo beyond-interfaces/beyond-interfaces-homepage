@@ -22,7 +22,7 @@
       <h1>Senior Software-Engineer / Solution-Architect • Backend (m/w/d)</h1>
     </section>
 
-    <SectionFullwidth name="we" data-aos="fade-up" data-aos-delay="400">
+    <SectionFullwidth name="we" data-aos="fade-up">
       <template v-slot:title>
         Wir bieten dir…
       </template>

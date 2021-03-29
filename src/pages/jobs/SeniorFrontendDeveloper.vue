@@ -22,7 +22,7 @@
       <h1>(Senior) Frontend-Engineer (m/w/d)</h1>
     </section>
 
-    <SectionFullwidth name="we" data-aos="fade-up" data-aos-delay="400">
+    <SectionFullwidth name="we" data-aos="fade-up">
       <template v-slot:title>
         Wir bieten dir…
       </template>
@@ -61,7 +61,7 @@
         <div>
           <ul>
             <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
-            <li>Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular oder Vue</li>
+            <li>Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular oder Vue (RxJS wär mega!)</li>
             <li>
               fundiertes Know-how im Styling von Web-Anwendungen mit HTML/SCSS sowie Kenntnisse von gängigen
               CSS-Architekturen (BEM / IT-CSS / Utility-first)

@@ -22,7 +22,7 @@
       <h1>Team Lead / Senior Fullstack-Engineer (m/w/d)</h1>
     </section>
 
-    <SectionFullwidth name="we" data-aos="fade-up" data-aos-delay="400">
+    <SectionFullwidth name="we" data-aos="fade-up">
       <template v-slot:description>
         <div class="introduction">
           Die beyond interfaces GmbH & Co. KG entwickelt Business Anwendungen mit höchsten Ansprüchen an
