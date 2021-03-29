@@ -12,14 +12,14 @@
         :color="'var(--color-grey)'"
       />
       <ArrowLink
-        :text="'Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)'"
+        :text="'(Senior) Frontend-Engineer (m/w/d)'"
         :href="'/jobs/senior-frontend-developer/'"
         :color="'var(--color-primary)'"
       />
     </section>
 
     <section class="container u-padding-bottom-none">
-      <h1>Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)</h1>
+      <h1>(Senior) Frontend-Engineer (m/w/d)</h1>
     </section>
 
     <SectionFullwidth name="we" data-aos="fade-up" data-aos-delay="400">
@@ -32,15 +32,15 @@
             <li>
               ein großartiges Team aus echten Expert*innen im Bereich Software Entwicklung und User Experience Design
             </li>
-            <li>spannende Projekte bei internationalen Kunden (mehr dazu im persönlichen Gespräch)</li>
+            <li>abwechslungsreiche Projekte bei internationalen Kunden (mehr dazu im persönlichen Gespräch)</li>
             <li>
               einen Remote First Arbeitsplatz bei dem du selbst entscheidest, wo und wie Du am effizientesten arbeitest
             </li>
             <li>ein attraktives und leistungsbezogenes Gehalt</li>
             <li>die Möglichkeit, den Aufbau unseres Unternehmens mitzugestalten und Verantwortung zu übernehmen</li>
             <li>ein frei verfügbares Weiterbildungsbudget in Höhe von 2000 € / Jahr</li>
-            <li>regelmäßige Teamevents und gemeinsame Aktivitäten (z.B. Wake-Boarding / Mountainbiken / Klettern)</li>
-            <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office!)</li>
+            <li>regelmäßige Teamevents, Knowledge-Sharings und gemeinsame (virtuelle) Aktivitäten</li>
+            <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office)</li>
             <li>ein JobTicket für den ÖPNV sowie die Möglichkeit dir ein Job-Bike auszusuchen</li>
           </ul>
         </div>
@@ -61,16 +61,15 @@
         <div>
           <ul>
             <li>ein abgeschlossenes technisches Studium oder eine vergleichbare Ausbildung</li>
-            <li>lanjährige Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular und TypeScript</li>
+            <li>Erfahrung in der Entwicklung von Web-Anwendungen auf Basis von Angular oder Vue</li>
             <li>
-              fundiertes Know-how im Styling von Web-Anwendungen mit (S)CSS und Kenntnisse von gängigen
-              CSS-Architekturen (BEM / IT-CSS)
+              fundiertes Know-how im Styling von Web-Anwendungen mit HTML/SCSS sowie Kenntnisse von gängigen
+              CSS-Architekturen (BEM / IT-CSS / Utility-first)
             </li>
-            <li>
-              Kenntnisse im Bereich Testautomatisierung für Web-Applikationen (Cypress / Wiremock / Contract-Testing)
-            </li>
-            <li>erste Erfahrungen im Bereich CI / CD, DevOps und Cloud-Architecture (insbesondere AWS)</li>
-            <li>ein grundlegendes Verständnis für moderne Softwarearchitekturen und gutes Schnittstellendesign</li>
+            <li>praktische Erfahrung mit CSS-Frameworks und UI-Bibliotheken, z.B. Tailwind, Material oder Ionic</li>
+            <li>Wissen über den Nutzen von Designsystemen/Atomic Design/Storybook</li>
+            <li>Spass und Interesse an schönen UIs und gutem UX</li>
+            <li>grundlegende Erfahrungen mit agilen Softwareentwicklungs-Prozessen und -tools (Jira, Confluence etc.)</li>
             <li>einen hohen Qualitätanspruch an Deine eigene Arbeit</li>
             <li>die Bereitschaft, Dein Wissen mit anderen zu teilen (z.B. im Rahmen eines Mentorings)</li>
             <li>keine Angst davor, alte Gewohnheiten über Bord zu werfen und Lösungen zu hinterfragen</li>

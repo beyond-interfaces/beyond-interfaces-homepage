@@ -12,7 +12,7 @@
         :color="'var(--color-grey)'"
       />
       <ArrowLink
-        :text="'Senior Software-Engineer / Solution-Architect • Frontend (m/w/d)'"
+        :text="'(Senior) Frontend-Engineer (m/w/d)'"
         :href="'/jobs/senior-frontend-developer/'"
         :color="'var(--color-grey)'"
       />
@@ -42,8 +42,8 @@
             <li>ein attraktives und leistungsbezogenes Gehalt</li>
             <li>die Möglichkeit, den Aufbau unseres Unternehmens mitzugestalten und Verantwortung zu übernehmen</li>
             <li>ein frei verfügbares Weiterbildungsbudget in Höhe von 2000 € / Jahr</li>
-            <li>regelmäßige Teamevents und gemeinsame Aktivitäten (z.B. Wake-Boarding / Mountainbiken / Klettern)</li>
-            <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office!)</li>
+            <li>regelmäßige Teamevents, Knowledge-Sharings und gemeinsame (virtuelle) Aktivitäten</li>
+            <li>Kaffee, Tee und Wasserflatrate (auch im Home-Office)</li>
             <li>ein JobTicket für den ÖPNV sowie die Möglichkeit dir ein Job-Bike auszusuchen</li>
           </ul>
         </div>
