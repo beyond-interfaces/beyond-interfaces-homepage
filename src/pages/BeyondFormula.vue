@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    <section id="hero-stage" class="section__spacing">
-      <div class="container">
+    <section class="container u-padding-bottom-none">
+      
         <h1>the beyond formula</h1>
         <p>
           Den Kern unserer Philosphie bilden eine Reihe von Mantras die wir als “the beyond formula” zusammengefasst
           haben:
         </p>
-      </div>
+      
     </section>
 
     <section class="fullwidth">
@@ -28,8 +28,7 @@
       </template>
       <template v-slot:description>
         <p>
-          Das klingt genau nach dem was du machen möchtest? Dann ping uns doch einfach direkt an. Wir freuen uns auf
-          dich!
+          Haben wir ihr Interesse geweckt? Wir freuen uns auf ein persönliches Kennenlernen!
         </p>
       </template>
     </SectionFullwidth>
@@ -48,9 +47,9 @@ export default {
       sections: [
         {
           character: 'B',
-          title: 'Focus on Solutions. No Bullshit',
+          title: 'Focus on Solutions',
           description:
-            'Wir konzentrieren uns auf Businesslösungen die die beste Usability für den Nutzer und den größten Businessvalue für den Kunden ermöglichen.'
+            'Wir konzentrieren uns auf Businesslösungen, die die beste Usability für den Nutzer und den größten Businessvalue für den Kunden ermöglichen.'
         },
         {
           character: 'E',

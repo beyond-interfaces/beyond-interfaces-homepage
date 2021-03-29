@@ -26,14 +26,17 @@ export default {
       isMobileLayout: false,
       links: [
         {
+          title: 'The beyond Formula',
+          url: '/beyond-formula'
+        },
+        {
           title: 'Arbeiten bei beyond',
           url: '/arbeiten-bei-beyond'
         },
         {
           title: 'Jobs',
           url: '/jobs'
-        },
-        { title: 'Über uns', url: '/about' }
+        }
       ]
     };
   },
